@@ -1,0 +1,594 @@
+(.venv) (base) dawei@Daweis-MacBook-Air CS6111-project1 % pip install numpy
+Requirement already satisfied: numpy in ./.venv/lib/python3.9/site-packages (1.26.4)
+WARNING: You are using pip version 22.0.4; however, version 24.0 is available.
+You should consider upgrading via the '/Users/dawei/Documents/CU/Course/6111/CS6111-project1/.venv/bin/python3 -m pip install --upgrade pip' command.
+(.venv) (base) dawei@Daweis-MacBook-Air CS6111-project1 % python3 main.py  
+Parameters:
+Query     = 123
+Precision = 10
+Google Search Results:
+======================
+{'kind': 'customsearch#result', 'title': 'Jess Glynne - 123 [Official Live Video] - YouTube', 'htmlTitle': 'Jess Glynne - <b>123</b> [Official Live Video] - YouTube', 'link': 'https://www.youtube.com/watch?v=DnKxZhiNpS8', 'displayLink': 'www.youtube.com', 'snippet': "Sep 28, 2018 ... Get 123: https://ad.gt/123 On the forthcoming album Always In Between, pre-order now and get All I Am, I'll Be There & this track instantly:\xa0...", 'htmlSnippet': 'Sep 28, 2018 <b>...</b> Get <b>123</b>: https://ad.gt/<b>123</b> On the forthcoming album Always In Between, pre-order now and get All I Am, I&#39;ll Be There &amp; this track instantly:&nbsp;...', 'cacheId': '4LZ6xaZ7ppkJ', 'formattedUrl': 'https://www.youtube.com/watch?v=DnKxZhiNpS8', 'htmlFormattedUrl': 'https://www.youtube.com/watch?v=DnKxZhiNpS8', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQFU2isdBwbcRgWCa9sDNcSV9J0jS9Zii7WpXeTU3kQzZi79iU6GtzrYh6z', 'width': '299', 'height': '168'}], 'metatags': [{'apple-itunes-app': 'app-id=544007664, app-argument=https://m.youtube.com/watch?v=DnKxZhiNpS8&referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008', 'theme-color': 'rgba(0, 0, 0, 0)', 'viewport': 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,', 'twitter:url': 'https://www.youtube.com/watch?v=DnKxZhiNpS8', 'og:url': 'https://www.youtube.com/watch?v=DnKxZhiNpS8'}], 'cse_image': [{'src': 'https://i.ytimg.com/vi/1a556ruQmlE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgIih_MA8=&rs=AOn4CLCbV3ipdDHf4FLDwjAppmHPxNoGSQ'}]}} resssssssss
+{'title': 'Jess Glynne - 123 [Official Live Video] - YouTube', 'url': 'https://www.youtube.com/watch?v=DnKxZhiNpS8', 'summary': "Sep 28, 2018 ... Get 123: https://ad.gt/123 On the forthcoming album Always In Between, pre-order now and get All I Am, I'll Be There & this track instantly:\xa0..."}
+{'kind': 'customsearch#result', 'title': 'HP Smart: 123.hp.com', 'htmlTitle': 'HP Smart: <b>123</b>.hp.com', 'link': 'https://123.hp.com/', 'displayLink': '123.hp.com', 'snippet': 'Welcome to the HP® Official website to setup your printer. Get started with your new printer by downloading the software. You will be able to connect the\xa0...', 'htmlSnippet': 'Welcome to the HP® Official website to setup your printer. Get started with your new printer by downloading the software. You will be able to connect the&nbsp;...', 'cacheId': '7xIEz5Bbr40J', 'formattedUrl': 'https://123.hp.com/', 'htmlFormattedUrl': 'https://<b>123</b>.hp.com/', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEKP-lS1u6ezhl6BTd9hW54wSaftoin4CHJIg62X4x1JBWcuQJqrI58Zo', 'width': '225', 'height': '225'}], 'metatags': [{'lifecycle': 'support.drivers', 'bu': 'IPG', 'handheldfriendly': 'True', 'viewport': 'width=device-width, initial-scale=1.0', 'segment': 'Segment Neutral', 'hp_design_version': 'hpexpnontridion', 'company_code': 'hpi', 'page_content': 'Solutions', 'hp_inav_version': 'ihfcaas.5.r', 'web_section_id': 'R11849', 'target_country': 'us'}], 'cse_image': [{'src': 'https://cdn.cookielaw.org/logos/4abb22ef-0e20-458e-be93-e351ad21c465/d7b075a7-eedf-48c4-8825-82055aa52681/e0ef4872-fc45-4dcb-bf84-4d8081cea805/HP_Logo_OT_email.png'}]}} resssssssss
+{'title': 'HP Smart: 123.hp.com', 'url': 'https://123.hp.com/', 'summary': 'Welcome to the HP® Official website to setup your printer. Get started with your new printer by downloading the software. You will be able to connect the\xa0...'}
+{'kind': 'customsearch#result', 'title': '123 Song | Learn Counting & Numbers | Count to 10 | 123 - YouTube', 'htmlTitle': '<b>123</b> Song | Learn Counting &amp; Numbers | Count to 10 | <b>123</b> - YouTube', 'link': 'https://www.youtube.com/watch?v=o0IsBUaoTrQ', 'displayLink': 'www.youtube.com', 'snippet': 'Apr 22, 2021 ... 123 Song for Kids | Learn Counting & Numbers | Count to 10 Nursery Rhyme Counting from 1 to 10 has never been easier with this 123 Song for\xa0...', 'htmlSnippet': 'Apr 22, 2021 <b>...</b> <b>123</b> Song for Kids | Learn Counting &amp; Numbers | Count to 10 Nursery Rhyme Counting from 1 to 10 has never been easier with this <b>123</b> Song for&nbsp;...', 'cacheId': 'mn25gfYJkGoJ', 'formattedUrl': 'https://www.youtube.com/watch?v=o0IsBUaoTrQ', 'htmlFormattedUrl': 'https://www.youtube.com/watch?v=o0IsBUaoTrQ', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcDJwCKACUlGOqmerZv6UQvUZUF6SvK4pSrW0kNR60NeTo_vFcZfAnYnPK', 'width': '299', 'height': '168'}], 'metatags': [{'apple-itunes-app': 'app-id=544007664, app-argument=https://m.youtube.com/watch?v=o0IsBUaoTrQ&referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008', 'theme-color': 'rgba(0, 0, 0, 0)', 'viewport': 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,', 'twitter:url': 'https://www.youtube.com/watch?v=o0IsBUaoTrQ', 'og:url': 'https://www.youtube.com/watch?v=o0IsBUaoTrQ'}], 'cse_image': [{'src': 'https://i.ytimg.com/vi/Hv0s85XFVZc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBGhNX_qfCiGo7z1BhdH-w02dxfyQ'}]}} resssssssss
+{'title': '123 Song | Learn Counting & Numbers | Count to 10 | 123 - YouTube', 'url': 'https://www.youtube.com/watch?v=o0IsBUaoTrQ', 'summary': 'Apr 22, 2021 ... 123 Song for Kids | Learn Counting & Numbers | Count to 10 Nursery Rhyme Counting from 1 to 10 has never been easier with this 123 Song for\xa0...'}
+{'kind': 'customsearch#result', 'title': 'The States Parties to the Rome Statute | International Criminal Court', 'htmlTitle': 'The States Parties to the Rome Statute | International Criminal Court', 'link': 'https://asp.icc-cpi.int/states-parties', 'displayLink': 'asp.icc-cpi.int', 'snippet': 'A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z. 123 countries are States Parties to the Rome Statute\xa0...', 'htmlSnippet': 'A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z. <b>123</b> countries are States Parties to the Rome Statute&nbsp;...', 'cacheId': 'BSQsh0-ywosJ', 'formattedUrl': 'https://asp.icc-cpi.int/states-parties', 'htmlFormattedUrl': 'https://asp.icc-cpi.int/states-parties', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsXFnOlIB54AA4rq-PYC30jyvIvHmp56p_eHkE92iSdhD-X5Fb2b2JUKM', 'width': '337', 'height': '149'}], 'metatags': [{'handheldfriendly': 'true', 'viewport': 'width=device-width, initial-scale=1.0', 'mobileoptimized': 'width'}], 'cse_image': [{'src': 'https://asp.icc-cpi.int/themes/custom/asp/logo.svg'}]}} resssssssss
+{'title': 'The States Parties to the Rome Statute | International Criminal Court', 'url': 'https://asp.icc-cpi.int/states-parties', 'summary': 'A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z. 123 countries are States Parties to the Rome Statute\xa0...'}
+{'kind': 'customsearch#result', 'title': 'Claire Rosinkranz - 123 (Official Lyric Video) - YouTube', 'htmlTitle': 'Claire Rosinkranz - <b>123</b> (Official Lyric Video) - YouTube', 'link': 'https://www.youtube.com/watch?v=PBWkJztYU8o', 'displayLink': 'www.youtube.com', 'snippet': 'Jul 28, 2022 ... Official lyric video for “123” by Claire Rosinkranz. Design and animation by Danni Fisher-Shin. Commissioned by Apple. Entirely made on iPad\xa0...', 'htmlSnippet': 'Jul 28, 2022 <b>...</b> Official lyric video for “<b>123</b>” by Claire Rosinkranz. Design and animation by Danni Fisher-Shin. Commissioned by Apple. Entirely made on iPad&nbsp;...', 'cacheId': '2sCgoWrXf2QJ', 'formattedUrl': 'https://www.youtube.com/watch?v=PBWkJztYU8o', 'htmlFormattedUrl': 'https://www.youtube.com/watch?v=PBWkJztYU8o', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-qc8kiV82DUHX2j8hMU5UzSy7NPeuNo2JNLPBsxasatIHBqNGcQd_BHg', 'width': '299', 'height': '168'}], 'metatags': [{'apple-itunes-app': 'app-id=544007664, app-argument=https://m.youtube.com/watch?v=PBWkJztYU8o&referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008', 'theme-color': 'rgba(0, 0, 0, 0)', 'viewport': 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,', 'twitter:url': 'https://www.youtube.com/watch?v=PBWkJztYU8o', 'og:url': 'https://www.youtube.com/watch?v=PBWkJztYU8o'}], 'cse_image': [{'src': 'https://i.ytimg.com/vi/KyA8f5E4q8w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBA0jKIhU8FcYdMry-e6LI40RXcnA'}]}} resssssssss
+{'title': 'Claire Rosinkranz - 123 (Official Lyric Video) - YouTube', 'url': 'https://www.youtube.com/watch?v=PBWkJztYU8o', 'summary': 'Jul 28, 2022 ... Official lyric video for “123” by Claire Rosinkranz. Design and animation by Danni Fisher-Shin. Commissioned by Apple. Entirely made on iPad\xa0...'}
+{'kind': 'customsearch#result', 'title': 'Strain Engineering of the Berry Curvature Dipole and Valley ...', 'htmlTitle': 'Strain Engineering of the Berry Curvature Dipole and Valley ...', 'link': 'https://link.aps.org/doi/10.1103/PhysRevLett.123.036806', 'displayLink': 'link.aps.org', 'snippet': 'Jul 18, 2019 ... Issue. Vol. 123, Iss. 3 — 19 July 2019. Reuse & Permissions. Access Options. Buy Article » · Log in with individual APS Journal Account » · Log\xa0...', 'htmlSnippet': 'Jul 18, 2019 <b>...</b> Issue. Vol. <b>123</b>, Iss. 3 — 19 July 2019. Reuse &amp; Permissions. Access Options. Buy Article » &middot; Log in with individual APS Journal Account » &middot; Log&nbsp;...', 'cacheId': 'NcyJQceuVr8J', 'formattedUrl': 'https://link.aps.org/doi/10.1103/PhysRevLett.123.036806', 'htmlFormattedUrl': 'https://link.aps.org/doi/10.1103/PhysRevLett.<b>123</b>.036806', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrhgrW-FWO5DgBOv76stgDXPuc1IJMEbYZBRaM8js4Djfl00HQiRLL6w', 'width': '100', 'height': '100'}], 'metatags': [{'og:type': 'article', 'article:published_time': '2019-07-18', 'citation_title': 'Strain Engineering of the Berry Curvature Dipole and Valley Magnetization in Monolayer <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mrow><mi>MoS</mi></mrow><mrow><mn>2</mn></mrow></msub></mrow></math>', 'citation_author_institution': 'Department of Physics and Department of Energy Systems Research, Ajou University, Suwon 16499, Korea', 'og:site_name': 'Physical Review Letters', 'citation_journal_abbrev': 'Phys. Rev. Lett.', 'citation_reference': 'citation_author=D. Xiao; citation_author=M.-C. Chang; citation_author=Q. Niu; citation_journal_title=Rev. Mod. Phys.; citation_volume=82; citation_pages=1959; citation_year=2010; citation_doi=10.1103/RevModPhys.82.1959', 'citation_publisher': 'American Physical Society', 'og:title': 'Strain Engineering of the Berry Curvature Dipole and Valley Magnetization in Monolayer ${\\mathrm{MoS}}_{2}$', 'citation_journal_title': 'Physical Review Letters', 'citation_author': 'Joolee Son', 'citation_date': '2019/07/18', 'og:description': 'The Berry curvature dipole is a physical quantity that is expected to allow various quantum geometrical phenomena in a range of solid-state systems. Monolayer transition metal dichalcogenides provide an exceptional platform to modulate and investigate the Berry curvature dipole through strain. Here, we theoretically demonstrate and experimentally verify for monolayer ${\\mathrm{MoS}}_{2}$ the generation of valley orbital magnetization as a response to an in-plane electric field due to the Berry curvature dipole. The measured valley orbital magnetization shows excellent agreement with the calculated Berry curvature dipole, which can be controlled by the magnitude and direction of strain. Our results show that the Berry curvature dipole acts as an effective magnetic field in current-carrying systems, providing a novel route to generate magnetization.', 'citation_issue': '3', 'citation_firstpage': '036806', 'fb:app_id': '1995707307312120', 'viewport': 'width=device-width', 'citation_doi': '10.1103/PhysRevLett.123.036806', 'og:locale': 'en_US', 'dc.identifier': 'doi:10.1103/PhysRevLett.123.036806', 'citation_pdf_url': 'http://link.aps.org/pdf/10.1103/PhysRevLett.123.036806', 'citation_volume': '123', 'og:url': 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.036806'}], 'cse_image': [{'src': 'https://journals.aps.org/prl/article/10.1103/PhysRevLett.123.036806/figures/2/thumbnail'}]}} resssssssss
+{'title': 'Strain Engineering of the Berry Curvature Dipole and Valley ...', 'url': 'https://link.aps.org/doi/10.1103/PhysRevLett.123.036806', 'summary': 'Jul 18, 2019 ... Issue. Vol. 123, Iss. 3 — 19 July 2019. Reuse & Permissions. Access Options. Buy Article » · Log in with individual APS Journal Account » · Log\xa0...'}
+{'kind': 'customsearch#result', 'title': 'EXECUTIVE ORDER NO. 123 WHEREAS, through Executive Order ...', 'htmlTitle': 'EXECUTIVE ORDER NO. <b>123</b> WHEREAS, through Executive Order ...', 'link': 'https://nj.gov/infobank/eo/056murphy/pdf/EO-123.pdf', 'displayLink': 'nj.gov', 'snippet': "Apr 7, 2020 ... 123. WHEREAS, through Executive Order No. 102 (2020), which I signed on February 3, 2020, I created the State's Coronavirus Task. Force\xa0...", 'htmlSnippet': 'Apr 7, 2020 <b>...</b> <b>123</b>. WHEREAS, through Executive Order No. 102 (2020), which I signed on February 3, 2020, I created the State&#39;s Coronavirus Task. Force&nbsp;...', 'cacheId': 'p59SLSD-P2gJ', 'formattedUrl': 'https://nj.gov/infobank/eo/056murphy/pdf/EO-123.pdf', 'htmlFormattedUrl': 'https://nj.gov/infobank/eo/056murphy/pdf/EO-<b>123</b>.pdf', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSb45ceBe8n5QSn9jQtg6alrYl0cKcmg7e4oX3vnocEwm-H7II0WhlditwB', 'width': '175', 'height': '288'}], 'metatags': [{'moddate': "D:20200409172519-04'00'", 'creationdate': "D:20200409172519-04'00'", 'creator': 'PScript5.dll Version 5.2.2', 'author': 'LuannBelardino', 'producer': 'Acrobat Distiller 20.0 (Windows)', 'title': 'Microsoft Word - EO-123'}], 'cse_image': [{'src': 'x-raw-image:///22451f8a4301a243f3fa4bf85f6d700c8158528255b1abccb3b4c1863adc871d'}]}, 'mime': 'application/pdf', 'fileFormat': 'PDF/Adobe Acrobat'} resssssssss
+{'title': 'EXECUTIVE ORDER NO. 123 WHEREAS, through Executive Order ...', 'url': 'https://nj.gov/infobank/eo/056murphy/pdf/EO-123.pdf', 'summary': "Apr 7, 2020 ... 123. WHEREAS, through Executive Order No. 102 (2020), which I signed on February 3, 2020, I created the State's Coronavirus Task. Force\xa0..."}
+{'kind': 'customsearch#result', 'title': 'Bending of Multilayer van der Waals Materials', 'htmlTitle': 'Bending of Multilayer van der Waals Materials', 'link': 'https://link.aps.org/doi/10.1103/PhysRevLett.123.116101', 'displayLink': 'link.aps.org', 'snippet': 'Sep 9, 2019 ... Guorui Wang, Zhaohe Dai, Junkai Xiao, ShiZhe Feng, Chuanxin Weng, Luqi Liu, Zhiping Xu, Rui Huang, and Zhong Zhang · Phys. Rev. Lett. 123, 116101\xa0...', 'htmlSnippet': 'Sep 9, 2019 <b>...</b> Guorui Wang, Zhaohe Dai, Junkai Xiao, ShiZhe Feng, Chuanxin Weng, Luqi Liu, Zhiping Xu, Rui Huang, and Zhong Zhang &middot; Phys. Rev. Lett. <b>123</b>, 116101&nbsp;...', 'cacheId': 'Xd9S0MjafW4J', 'formattedUrl': 'https://link.aps.org/doi/10.1103/PhysRevLett.123.116101', 'htmlFormattedUrl': 'https://link.aps.org/doi/10.1103/PhysRevLett.<b>123</b>.116101', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOeZ6Wtwr-zDjFQhHK1nMexLzHmOqf1EE3Mkk2qh0QTclZ-ACSQSSvwzU', 'width': '200', 'height': '155'}], 'metatags': [{'og:image': 'https://cdn.journals.aps.org/journals/PRL/key_images/10.1103/PhysRevLett.123.116101.png', 'article:published_time': '2019-09-09', 'citation_title': 'Bending of Multilayer van der Waals Materials', 'citation_author_institution': 'CAS Key Laboratory of Nanosystem and Hierarchical Fabrication, CAS Center for Excellence in Nanoscience, National Center for Nanoscience and Technology, Beijing 100190, China', 'og:site_name': 'Physical Review Letters', 'citation_reference': 'citation_author=A.\u2009K. Geim; citation_author=I.\u2009V. Grigorieva; citation_journal_title=Nature (London); citation_volume=499; citation_pages=419; citation_year=2013; citation_doi=10.1038/nature12385', 'citation_publisher': 'American Physical Society', 'citation_journal_title': 'Physical Review Letters', 'og:image:type': 'image/png', 'citation_date': '2019/09/09', 'og:description': 'Direct measurement of the bending rigidity of multilayer graphene, molybdenum disulfide, and hexagonal boron nitride, shows a response of the multilayers consistent with nonlinear plate theory.', 'twitter:image': 'https://cdn.journals.aps.org/journals/PRL/key_images/10.1103/PhysRevLett.123.116101.png', 'citation_pdf_url': 'http://link.aps.org/pdf/10.1103/PhysRevLett.123.116101', 'og:type': 'article', 'citation_journal_abbrev': 'Phys. Rev. Lett.', 'og:title': 'Bending of Multilayer van der Waals Materials', 'citation_author': 'Guorui Wang', 'citation_issue': '11', 'citation_firstpage': '116101', 'fb:app_id': '1995707307312120', 'viewport': 'width=device-width', 'citation_doi': '10.1103/PhysRevLett.123.116101', 'og:locale': 'en_US', 'dc.identifier': 'doi:10.1103/PhysRevLett.123.116101', 'citation_volume': '123', 'og:url': 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.116101'}], 'cse_image': [{'src': 'https://cdn.journals.aps.org/journals/PRL/key_images/10.1103/PhysRevLett.123.116101.png'}]}} resssssssss
+{'title': 'Bending of Multilayer van der Waals Materials', 'url': 'https://link.aps.org/doi/10.1103/PhysRevLett.123.116101', 'summary': 'Sep 9, 2019 ... Guorui Wang, Zhaohe Dai, Junkai Xiao, ShiZhe Feng, Chuanxin Weng, Luqi Liu, Zhiping Xu, Rui Huang, and Zhong Zhang · Phys. Rev. Lett. 123, 116101\xa0...'}
+{'kind': 'customsearch#result', 'title': 'BIPARTISAN BUDGET ACT OF 2018', 'htmlTitle': 'BIPARTISAN BUDGET ACT OF 2018', 'link': 'https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf', 'displayLink': 'www.congress.gov', 'snippet': 'Feb 9, 2018 ... ... PUBL123.115 PUBL123 ralbany on LAP520R082 with PUB LAWS PDF. Page 205. 132 STAT. 267. PUBLIC LAW 115–123—FEB. 9, 2018. PART VI—CONTINUING\xa0...', 'htmlSnippet': 'Feb 9, 2018 <b>...</b> ... <b>PUBL123</b>.115 <b>PUBL123</b> ralbany on LAP520R082 with PUB LAWS PDF. Page 205. 132 STAT. 267. PUBLIC LAW 115–<b>123</b>—FEB. 9, 2018. PART VI—CONTINUING&nbsp;...', 'formattedUrl': 'https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf', 'htmlFormattedUrl': 'https://www.congress.gov/115/plaws/publ<b>123</b>/PLAW-115publ<b>123</b>.pdf', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4BYPhc9-R5NnxWLCnQQlZA-8tpkcPLkQxHe7wwfamK3cNellMHDefvOI', 'width': '197', 'height': '255'}], 'metatags': [{'moddate': "D:20201229124418-05'00'", 'creationdate': "D:20181103043112-04'00'", 'creator': 'ACOMP.exe   WinVer 2.2a  Sep 11 2014', 'producer': 'Acrobat Distiller 10.1.16 (Windows)', 'title': 'PUBL123.PS'}], 'cse_image': [{'src': 'x-raw-image:///f3dd74030ad1ed63e51058b12c1e69da5d3ec1974b84be1b6339886e966b7603'}]}, 'mime': 'application/pdf', 'fileFormat': 'PDF/Adobe Acrobat'} resssssssss
+{'title': 'BIPARTISAN BUDGET ACT OF 2018', 'url': 'https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf', 'summary': 'Feb 9, 2018 ... ... PUBL123.115 PUBL123 ralbany on LAP520R082 with PUB LAWS PDF. Page 205. 132 STAT. 267. PUBLIC LAW 115–123—FEB. 9, 2018. PART VI—CONTINUING\xa0...'}
+{'kind': 'customsearch#result', 'title': '10 U.S. Code § 123 - Authority to suspend officer personnel laws ...', 'htmlTitle': '10 U.S. Code § <b>123</b> - Authority to suspend officer personnel laws ...', 'link': 'https://www.law.cornell.edu/uscode/text/10/123', 'displayLink': 'www.law.cornell.edu', 'snippet': '10 U.S. Code § 123 - Authority to suspend officer personnel laws during war or national emergency ... So long as such war or national emergency continues, any\xa0...', 'htmlSnippet': '10 U.S. Code § <b>123</b> - Authority to suspend officer personnel laws during war or national emergency ... So long as such war or national emergency continues, any&nbsp;...', 'cacheId': 'YoBjIEgWqtoJ', 'formattedUrl': 'https://www.law.cornell.edu/uscode/text/10/123', 'htmlFormattedUrl': 'https://www.law.cornell.edu/uscode/text/10/<b>123</b>', 'pagemap': {'cse_thumbnail': [{'src': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGcdwfPFrYUuDCq3KrLd2pdV3wLyOnciLGWSa5M5h-ZuqJJJGyLAiepQ', 'width': '232', 'height': '159'}], 'metatags': [{'og:image': 'https://www.law.cornell.edu/images/liibracketlogo.gif', 'og:type': 'website', 'twitter:card': 'US Code - Title 10 > Subtitle A > PART I > CHAPTER 3 > §\u202f123', 'twitter:title': '10 U.S. Code § 123 -  Authority to suspend officer personnel laws during war or national emergency', 'og:site_name': 'LII / Legal Information Institute', 'twitter:url': 'https://www.law.cornell.edu/uscode/text/10/123', 'og:title': '10 U.S. Code § 123 -  Authority to suspend officer personnel laws during war or national emergency', 'dcterms.title': '10 U.S. Code § 123 -  Authority to suspend officer personnel laws during war or national emergency', 'version': 'v10.7.5', 'twitter:image': 'https://www.law.cornell.edu/images/liibracketlogo.gif', 'twitter:site': '@LIICornell', 'viewport': 'width=device-width, initial-scale=1.0', 'og:url': 'https://www.law.cornell.edu/uscode/text/10/123'}], 'cse_image': [{'src': 'https://www.law.cornell.edu/images/liibracketlogo.gif'}]}} resssssssss
+{'title': '10 U.S. Code § 123 - Authority to suspend officer personnel laws ...', 'url': 'https://www.law.cornell.edu/uscode/text/10/123', 'summary': '10 U.S. Code § 123 - Authority to suspend officer personnel laws during war or national emergency ... So long as such war or national emergency continues, any\xa0...'}
+Result 1
+[ 
+title: Jess Glynne - 123 [Official Live Video] - YouTube 
+url: https://www.youtube.com/watch?v=DnKxZhiNpS8 
+summary: Sep 28, 2018 ... Get 123: https://ad.gt/123 On the forthcoming album Always In Between, pre-order now and get All I Am, I'll Be There & this track instantly: ... 
+]
+Relevant (Y/N)Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+Result 1
+[ 
+title: Jess Glynne - 123 [Official Live Video] - YouTube 
+url: https://www.youtube.com/watch?v=DnKxZhiNpS8 
+summary: Sep 28, 2018 ... Get 123: https://ad.gt/123 On the forthcoming album Always In Between, pre-order now and get All I Am, I'll Be There & this track instantly: ... 
+]
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+Result 1
+[ 
+title: Jess Glynne - 123 [Official Live Video] - YouTube 
+url: https://www.youtube.com/watch?v=DnKxZhiNpS8 
+summary: Sep 28, 2018 ... Get 123: https://ad.gt/123 On the forthcoming album Always In Between, pre-order now and get All I Am, I'll Be There & this track instantly: ... 
+]
+Result 2
+[ 
+title: HP Smart: 123.hp.com 
+url: https://123.hp.com/ 
+summary: Welcome to the HP® Official website to setup your printer. Get started with your new printer by downloading the software. You will be able to connect the ... 
+]
+Result 3
+[ 
+title: 123 Song | Learn Counting & Numbers | Count to 10 | 123 - YouTube 
+url: https://www.youtube.com/watch?v=o0IsBUaoTrQ 
+summary: Apr 22, 2021 ... 123 Song for Kids | Learn Counting & Numbers | Count to 10 Nursery Rhyme Counting from 1 to 10 has never been easier with this 123 Song for ... 
+]
+Result 4
+[ 
+title: The States Parties to the Rome Statute | International Criminal Court 
+url: https://asp.icc-cpi.int/states-parties 
+summary: A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z. 123 countries are States Parties to the Rome Statute ... 
+]
+Result 5
+[ 
+title: Claire Rosinkranz - 123 (Official Lyric Video) - YouTube 
+url: https://www.youtube.com/watch?v=PBWkJztYU8o 
+summary: Jul 28, 2022 ... Official lyric video for “123” by Claire Rosinkranz. Design and animation by Danni Fisher-Shin. Commissioned by Apple. Entirely made on iPad ... 
+]
+Result 6
+[ 
+title: Strain Engineering of the Berry Curvature Dipole and Valley ... 
+url: https://link.aps.org/doi/10.1103/PhysRevLett.123.036806 
+summary: Jul 18, 2019 ... Issue. Vol. 123, Iss. 3 — 19 July 2019. Reuse & Permissions. Access Options. Buy Article » · Log in with individual APS Journal Account » · Log ... 
+]
+Result 7
+[ 
+title: EXECUTIVE ORDER NO. 123 WHEREAS, through Executive Order ... 
+url: https://nj.gov/infobank/eo/056murphy/pdf/EO-123.pdf 
+summary: Apr 7, 2020 ... 123. WHEREAS, through Executive Order No. 102 (2020), which I signed on February 3, 2020, I created the State's Coronavirus Task. Force ... 
+]
+Result 8
+[ 
+title: Bending of Multilayer van der Waals Materials 
+url: https://link.aps.org/doi/10.1103/PhysRevLett.123.116101 
+summary: Sep 9, 2019 ... Guorui Wang, Zhaohe Dai, Junkai Xiao, ShiZhe Feng, Chuanxin Weng, Luqi Liu, Zhiping Xu, Rui Huang, and Zhong Zhang · Phys. Rev. Lett. 123, 116101 ... 
+]
+Result 9
+[ 
+title: Notice 123 | Postal Explorer 
+url: https://pe.usps.com/text/dmm300/Notice123.htm 
+summary: Parcels that exceed 22 inches but not greater than 30 inches in length, add $4.00. Parcels that exceed 30 inches in length, add ... 
+]
+Result 10
+[ 
+title: 10 U.S. Code § 123 - Authority to suspend officer personnel laws ... 
+url: https://www.law.cornell.edu/uscode/text/10/123 
+summary: 10 U.S. Code § 123 - Authority to suspend officer personnel laws during war or national emergency ... So long as such war or national emergency continues, any ... 
+]
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+Result 1
+[ 
+title: Jess Glynne - 123 [Official Live Video] - YouTube 
+url: https://www.youtube.com/watch?v=DnKxZhiNpS8 
+summary: Sep 28, 2018 ... Get 123: https://ad.gt/123 On the forthcoming album Always In Between, pre-order now and get All I Am, I'll Be There & this track instantly: ... 
+]
+Result 2
+[ 
+title: HP Smart: 123.hp.com 
+url: https://123.hp.com/ 
+summary: Welcome to the HP® Official website to setup your printer. Get started with your new printer by downloading the software. You will be able to connect the ... 
+]
+Result 3
+[ 
+title: 123 Song | Learn Counting & Numbers | Count to 10 | 123 - YouTube 
+url: https://www.youtube.com/watch?v=o0IsBUaoTrQ 
+summary: Apr 22, 2021 ... 123 Song for Kids | Learn Counting & Numbers | Count to 10 Nursery Rhyme Counting from 1 to 10 has never been easier with this 123 Song for ... 
+]
+Result 4
+[ 
+title: The States Parties to the Rome Statute | International Criminal Court 
+url: https://asp.icc-cpi.int/states-parties 
+summary: A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z. 123 countries are States Parties to the Rome Statute ... 
+]
+Result 5
+[ 
+title: Claire Rosinkranz - 123 (Official Lyric Video) - YouTube 
+url: https://www.youtube.com/watch?v=PBWkJztYU8o 
+summary: Jul 28, 2022 ... Official lyric video for “123” by Claire Rosinkranz. Design and animation by Danni Fisher-Shin. Commissioned by Apple. Entirely made on iPad ... 
+]
+Result 6
+[ 
+title: Strain Engineering of the Berry Curvature Dipole and Valley ... 
+url: https://link.aps.org/doi/10.1103/PhysRevLett.123.036806 
+summary: Jul 18, 2019 ... Issue. Vol. 123, Iss. 3 — 19 July 2019. Reuse & Permissions. Access Options. Buy Article » · Log in with individual APS Journal Account » · Log ... 
+]
+Result 7
+[ 
+title: EXECUTIVE ORDER NO. 123 WHEREAS, through Executive Order ... 
+url: https://nj.gov/infobank/eo/056murphy/pdf/EO-123.pdf 
+summary: Apr 7, 2020 ... 123. WHEREAS, through Executive Order No. 102 (2020), which I signed on February 3, 2020, I created the State's Coronavirus Task. Force ... 
+]
+Result 8
+[ 
+title: Bending of Multilayer van der Waals Materials 
+url: https://link.aps.org/doi/10.1103/PhysRevLett.123.116101 
+summary: Sep 9, 2019 ... Guorui Wang, Zhaohe Dai, Junkai Xiao, ShiZhe Feng, Chuanxin Weng, Luqi Liu, Zhiping Xu, Rui Huang, and Zhong Zhang · Phys. Rev. Lett. 123, 116101 ... 
+]
+Result 9
+[ 
+title: 10 U.S. Code § 123 - Authority to suspend officer personnel laws ... 
+url: https://www.law.cornell.edu/uscode/text/10/123 
+summary: 10 U.S. Code § 123 - Authority to suspend officer personnel laws during war or national emergency ... So long as such war or national emergency continues, any ... 
+]
+Result 10
+[ 
+title: Notice 123 | Postal Explorer 
+url: https://pe.usps.com/text/dmm300/Notice123.htm 
+summary: Parcels that exceed 22 inches but not greater than 30 inches in length, add $4.00. Parcels that exceed 30 inches in length, add ... 
+]
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+Result 1
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+Result 1
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+Result 1
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+ahhhhh non-html
+Result 1
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+ahhhhh non-html
+Result 1
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = 123
+Precision = 1
+Google Search Results:
+======================
+ahhhhh non-html
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
