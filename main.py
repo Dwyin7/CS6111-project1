@@ -117,11 +117,10 @@ def query_by_precision(precision, query, service):
             instance = Rocchio(
                 relevant_docs=relevant_docs,
                 unrelevant_docs=unrelevant_docs,
-                query=query,
+                query=cur_query,
             )
-            new_query = instance.run(1, 1, 0.5)
-            print("new query:    ", new_query)
-            return
+            cur_query = instance.run(1, 1, 0.5)
+            print("new query:    ", cur_query)
 
 
 def main():

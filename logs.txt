@@ -719,3 +719,521 @@ title: 23andMe: DNA Genetic Testing For Health, Ancestry And More
 url: https://www.23andme.com/ 
 summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
 ]
+Parameters:
+Query     = wojcicki
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Result 2
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+Result 3
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+Result 4
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7622 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+Result 5
+[ 
+title: Esther Wojcicki (@EstherWojcicki) / X 
+url: https://twitter.com/EstherWojcicki 
+summary: Educator, journalist, IT & OER consultant, author of "How to Raise Successful People," speaker. 
+]
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+Result 9
+[ 
+title: How Wojcicki sisters grew up to become highly successful CEOs ... 
+url: https://www.cnbc.com/.../how-wojcicki-sisters-grew-up-to-become-highly-s... 
+summary: Mar 17, 2023 ... Anne, Susan and Janet Wojcicki all have high-powered careers, from running companies like YouTube and 23andMe to being a doctor and ... 
+]
+Result 10
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+Parameters:
+Query     = wojcicki
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Result 2
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+Result 3
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+Result 4
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7622 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+Result 5
+[ 
+title: Esther Wojcicki (@EstherWojcicki) / X 
+url: https://twitter.com/EstherWojcicki 
+summary: Educator, journalist, IT & OER consultant, author of "How to Raise Successful People," speaker. 
+]
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+Result 9
+[ 
+title: How Wojcicki sisters grew up to become highly successful CEOs ... 
+url: https://www.cnbc.com/.../how-wojcicki-sisters-grew-up-to-become-highly-s... 
+summary: Mar 17, 2023 ... Anne, Susan and Janet Wojcicki all have high-powered careers, from running companies like YouTube and 23andMe to being a doctor and ... 
+]
+Result 10
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+Parameters:
+Query     = wojcicki
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Result 2
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+Result 3
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+Result 4
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7622 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+Result 5
+[ 
+title: Esther Wojcicki (@EstherWojcicki) / X 
+url: https://twitter.com/EstherWojcicki 
+summary: Educator, journalist, IT & OER consultant, author of "How to Raise Successful People," speaker. 
+]
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+Result 9
+[ 
+title: How Wojcicki sisters grew up to become highly successful CEOs ... 
+url: https://www.cnbc.com/.../how-wojcicki-sisters-grew-up-to-become-highly-s... 
+summary: Mar 17, 2023 ... Anne, Susan and Janet Wojcicki all have high-powered careers, from running companies like YouTube and 23andMe to being a doctor and ... 
+]
+Result 10
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Result 2
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+Result 3
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+Result 4
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7622 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+Result 5
+[ 
+title: Esther Wojcicki (@EstherWojcicki) / X 
+url: https://twitter.com/EstherWojcicki 
+summary: Educator, journalist, IT & OER consultant, author of "How to Raise Successful People," speaker. 
+]
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+Result 9
+[ 
+title: How Wojcicki sisters grew up to become highly successful CEOs ... 
+url: https://www.cnbc.com/.../how-wojcicki-sisters-grew-up-to-become-highly-s... 
+summary: Mar 17, 2023 ... Anne, Susan and Janet Wojcicki all have high-powered careers, from running companies like YouTube and 23andMe to being a doctor and ... 
+]
+Result 10
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Parameters:
+Query     = wojcicki
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Result 2
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+Result 3
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+Result 4
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7622 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+Result 5
+[ 
+title: Esther Wojcicki (@EstherWojcicki) / X 
+url: https://twitter.com/EstherWojcicki 
+summary: Educator, journalist, IT & OER consultant, author of "How to Raise Successful People," speaker. 
+]
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+Result 9
+[ 
+title: How Wojcicki sisters grew up to become highly successful CEOs ... 
+url: https://www.cnbc.com/.../how-wojcicki-sisters-grew-up-to-become-highly-s... 
+summary: Mar 17, 2023 ... Anne, Susan and Janet Wojcicki all have high-powered careers, from running companies like YouTube and 23andMe to being a doctor and ... 
+]
+Result 10
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+Result 1
+[ 
+title: Anne Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Anne_Wojcicki 
+summary: Anne E. Wojcicki is an American entrepreneur who co-founded and is CEO of the personal genomics company 23andMe. She founded the company in 2006 with Linda ... 
+]
+Result 2
+[ 
+title: How Anne and Susan Wojcicki's parents raised the founder of ... 
+url: https://www.cnbc.com/.../how-the-wojcickis-parents-raised-23andme-found... 
+summary: Jun 18, 2018 ... Anne Wojcicki, 44, is co-founder and CEO of direct-to-consumer genetics testing company 23andMe, which has raised almost $500 million in ... 
+]
+Result 3
+[ 
+title: 23andMe CEO Anne Wojcicki says she was ignored until she made ... 
+url: https://fortune.com/.../23andme-ceo-anne-wojcicki-self-made-billioniare-sp... 
+summary: Dec 2, 2021 ... There are people who wouldn't talk to me for years and years,” says Wojcicki, who was formerly married to Google cofounder Sergey Brin. 
+]
+Result 4
+[ 
+title: Anne Wojcicki 
+url: https://www.forbes.com/profile/anne-wojcicki/ 
+summary: 91 Anne Wojcicki on the 2023 America's Self-Made Women - Anne Wojcicki is the cofounder and CEO of 23andMe, a pioneering direct-to-consumer genetics ... 
+]
+Result 5
+[ 
+title: 23andMe CEO Anne Wojcicki: the Ex-Wife of Sergey Brin's Life and ... 
+url: https://www.businessinsider.com/23andme-ceo-anne-wojcicki-life-career-fa... 
+summary: Feb 18, 2023 ... Anne Wojcicki is the sister of former YouTube CEO Susan Wojcicki. Here's a look back at how she got her start and built a genetic-testing ... 
+]
+Result 6
+[ 
+title: Anne Wojcicki - 23andMe | LinkedIn 
+url: https://www.linkedin.com/in/annewojcicki 
+summary: View Anne Wojcicki's profile on LinkedIn, the world's largest professional community. Anne has 5 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 8
+[ 
+title: Anne Wojcicki | Biography, Facts, & 23andMe | Britannica 
+url: https://www.britannica.com/biography/Anne-Wojcicki 
+summary: Jan 22, 2024 ... Anne Wojcicki, American entrepreneur and cofounder and chief executive officer of the personal genetics company 23andMe. 
+]
+Result 9
+[ 
+title: Anne Wojcicki (@annewoj23) • Instagram photos and videos 
+url: https://www.instagram.com/annewoj23/?hl=en 
+summary: @23andme CEO Co-Founder | Think Big | Lead With Science | I ❤️ DNA| https://you.23andme.com/covid19-study. 
+]
+Result 10
+[ 
+title: CEO Anne Wojcicki on turning 23andMe into a 'full-fledged biotech ... 
+url: https://www.biopharmadive.com/news/23andme-ceo...wojcicki.../698995/ 
+summary: Nov 7, 2023 ... The rest of the industry still hasn't fully caught on, according to Anne Wojcicki, the company's co-founder and CEO. ... and me healthier. That's ... 
+]
+Parameters:
+Query     = cases
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: CASES: Home 
+url: https://www.cases.org/ 
+summary: From court and program offices in the Bronx, Brooklyn, and Manhattan, CASES provides community-based alternatives to jail and prison. These programs address ... 
+]
+Result 2
+[ 
+title: cases | International Criminal Court 
+url: https://www.icc-cpi.int/cases 
+summary: Banda. At large. Case also involved Saleh Mohammed Jerbo Jamus but proceedings against him were terminated on 4 October 2013 following his passing. On 7 March ... 
+]
+Result 3
+[ 
+title: 2023-2024 Term | Oyez 
+url: https://www.oyez.org/cases 
+summary: US Supreme Court cases from the 2023-2024 term. 
+]
+Result 4
+[ 
+title: CASETiFY: Show Your Colors 
+url: https://www.casetify.com/ 
+summary: CASETiFY - We make the most sustainable yet protective phone cases for iPhone 15 / iPhone 15 Pro / iPhone 15 Plus / iPhone 15 Pro Max and tech accessories. 
+]
+Result 5
+[ 
+title: COVID - Coronavirus Statistics - Worldometer 
+url: https://www.worldometers.info/coronavirus/ 
+summary: Daily and weekly updated statistics tracking the number of COVID-19 cases, recovered, and deaths. Historical data with cumulative charts, graphs, ... 
+]
+Result 6
+[ 
+title: Automated Case Information 
+url: https://acis.eoir.justice.gov/ 
+summary: EOIR Automated Case Information ... Please check https://www.justice.gov/eoir-operational-status for up to date closures. ... Welcome to the Automated Case ... 
+]
+Result 7
+[ 
+title: Measles Cases and Outbreaks | CDC 
+url: https://www.cdc.gov/measles/cases-outbreaks.html 
+summary: Measles cases in 2019 · From January 1 to December 31, 2019, 1,274* individual cases of measles were confirmed in 31 states. · This is the greatest number of ... 
+]
+Result 8
+[ 
+title: Maryland Judiciary Case Search 
+url: https://casesearch.courts.state.md.us/ 
+summary: Confidential records and information will not be returned in your search results. The information displayed on this Web Site is generated from computerized ... 
+]
+Result 9
+[ 
+title: Public Access to Court Electronic Records | PACER: Federal Court ... 
+url: https://pacer.uscourts.gov/ 
+summary: Search for a case in the federal court where the case was filed, or; Search a nationwide index of federal court cases. The PACER Service Center can assist you ... 
+]
+Result 10
+[ 
+title: Cases | INTERNATIONAL COURT OF JUSTICE 
+url: https://www.icj-cij.org/cases 
+summary: Main navigation ... The Court has a twofold role: to settle, in accordance with international law, legal disputes submitted to it by States (contentious cases) ... 
+]
+Result 1
+[ 
+title: Cumulative Cases - Johns Hopkins Coronavirus Resource Center 
+url: https://coronavirus.jhu.edu/data/cumulative-cases 
+summary: The first case of COVID-19 in US was reported 1142 days ago on 1/21/2020. Yesterday, the country reported 46,931 new confirmed cases and 590 deaths. 
+]
+Result 2
+[ 
+title: Coronavirus (COVID-19) Cases - Our World in Data 
+url: https://ourworldindata.org/covid-cases 
+summary: Biweekly confirmed cases refers to the cumulative number ofcases over the previous two weeks. ... Reported new cases on a particular day do not necessarily ... 
+]
+Result 3
+[ 
+title: Cumulative Case Reports of Disease | KDHE, KS 
+url: https://www.kdhe.ks.gov/1482/Cumulative-Case-Reports-of-Disease 
+summary: As provisional counts are updated, the cumulative (year-to-date) count of cases can increase or decrease. Provisional case counts are published in the MMWR ... 
+]
+Result 4
+[ 
+title: Cumulative confirmed COVID-19 cases and deaths - Our World in ... 
+url: https://ourworldindata.org/grapher/cumulative-deaths-and-cases-covid-19 
+summary: daily new confirmed cases · COVID-19: Daily tests vs. daily new confirmed cases per million · COVID-19: Where are the world's unvaccinated people? Cancellation ... 
+]
+Result 5
+[ 
+title: Cumulative number of confirmed human cases for avian influenza A ... 
+url: https://www.who.int/.../cumulative-number-of-confirmed-human-cases-for-... 
+summary: Jan 5, 2023 ... | Emergency Situational Updates. Cumulative number of confirmed human cases for avian influenza A(H5N1) reported to WHO. Download (132.9 kB) ... 
+]
+Result 6
+[ 
+title: COVID-19 Aggregate Cases NO FURTHER UPDATES | PA Open ... 
+url: https://data.pa.gov/Covid-19/COVID-19-Aggregate-Cases.../j72v-r42c 
+summary: ... new confirmed and probable cases. Number. Data Type: Number. API Field Name: cases_avg_new. Cumulative cases. Cumulative confirmed and probable cases reported ... 
+]
+Result 7
+[ 
+title: Mpox case counts | San Francisco 
+url: https://www.sf.gov/data/mpox-case-counts 
+summary: We calculate the rolling average by averaging the new cases for a particular day with the new cases for the prior 6 days. ... The total cumulative number of cases ... 
+]
+Result 8
+[ 
+title: 2014 Ebola Outbreak in West Africa Epidemic Curves | History ... 
+url: https://www.cdc.gov/vhf/ebola/history/.../cumulative-cases-graphs.html 
+summary: The Frequency of New Cases in Guinea, Liberia, and Sierra Leone during the Ebola Outbreak from March 25, 2014 to April 13, 2016 ... Graph 1: Case Incidence in ... 
+]
+Result 9
+[ 
+title: COVID-19 deaths | San Francisco 
+url: https://www.sf.gov/data/covid-19-cases-and-deaths 
+summary: COVID-19 deaths in San Francisco, including new and cumulative totals. 
+]
+Result 10
+[ 
+title: COVID-19 Nursing Home Data - Centers for Medicare & Medicaid ... 
+url: https://data.cms.gov/covid-19/covid-19-nursing-home-data 
+summary: ... cumulative counts over time instead of new cases, and other data entry errors. When this happens, some of a facility's data may be suppressed, resulting in ... 
+]
+ahhhhh non-html
+Result 1
+[ 
+title: New COVID-19 Cases Worldwide - Johns Hopkins Coronavirus ... 
+url: https://coronavirus.jhu.edu/data/new-cases 
+summary: Mar 16, 2023 ... Have countries flattened the curve? Daily confirmed new COVID-19 cases for the most affected countries over time. 
+]
