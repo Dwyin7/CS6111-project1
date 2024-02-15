@@ -592,3 +592,130 @@ Result 7
 Result 8
 Result 9
 Result 10
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+Result 2
+Result 3
+Result 4
+Result 5
+Result 6
+Result 7
+Result 8
+Result 9
+Result 10
+Parameters:
+Query     = per se
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+[ 
+title: Per Se | Thomas Keller Restaurant Group 
+url: https://www.thomaskeller.com/perseny 
+summary: Per Se. Per Se Front Door. center. About. About; Restaurant · Team · Info & Directions · Gift Experiences · Reservations; Menus & Stories. Menus & Stories 
+]
+Result 2
+[ 
+title: Perse Definition & Meaning - Merriam-Webster 
+url: https://www.merriam-webster.com/dictionary/perse 
+summary: The meaning of PERSE is of a dark grayish blue resembling indigo. How to use perse in a sentence. Did you know? 
+]
+Result 3
+[ 
+title: Per Se - New York, NY | Tock 
+url: https://www.exploretock.com/perse 
+summary: Opened in 2004, Per Se is Thomas Keller's acclaimed interpretation of The French Laundry in the Deutsche Bank Center at Columbus Circle. 
+]
+Result 4
+[ 
+title: Per Se (@perseny) • Instagram photos and videos 
+url: https://www.instagram.com/perseny/ 
+summary: 268K Followers, 197 Following, 930 Posts - See Instagram photos and videos from Per Se (@perseny) 
+]
+Result 5
+[ 
+title: Per Se – New York - a MICHELIN Guide Restaurant 
+url: https://guide.michelin.com/us/en/new-york-state/new-york/.../per-se 
+summary: Per Se – a Three Stars: Exceptional cuisine restaurant in the 2023 MICHELIN Guide USA. The MICHELIN inspectors' point of view, information on prices, ... 
+]
+Result 6
+[ 
+title: per se - Wiktionary, the free dictionary 
+url: https://en.wikipedia.org/wiki/wikt:per_se 
+summary: From Latin per sē (“by itself”), from per (“by, through”) and sē (“itself, himself, herself, themselves”). 
+]
+Result 7
+[ 
+title: PER SE | definition in the Cambridge English Dictionary 
+url: https://dictionary.cambridge.org/us/dictionary/english/per-se 
+summary: PER SE meaning: 1. by or of itself: 2. by or of itself: 3. by or of itself: . Learn more. 
+]
+Result 8
+[ 
+title: James Perse Los Angeles 
+url: https://www.jamesperse.com/ 
+summary: James Perse. Women. Women; Apparel. Apparel Main Menu; New Arrivals · At Home Essentials · Classics · Dresses/Jumpsuits · Sweaters/Cashmere · T-shirts. 
+]
+Result 9
+[ 
+title: PER SE | English meaning - Cambridge Dictionary 
+url: https://dictionary.cambridge.org/dictionary/english/per-se 
+summary: PER SE definition: 1. by or of itself: 2. by or of itself: 3. by or of itself: . Learn more. 
+]
+Result 10
+[ 
+title: per se | Wex | US Law | LII / Legal Information Institute 
+url: https://www.law.cornell.edu/wex/per_se 
+summary: Primary tabs. Latin for “by itself,” in other words, inherently. For example, in tort law, a statutory violation is negligence per se. One of the elements a ... 
+]
+Parameters:
+Query     = 23andMe
+Precision = 0.7
+Google Search Results:
+======================
+Result 1
+[ 
+title: 23andMe: DNA Genetic Testing For Health, Ancestry And More 
+url: https://www.23andme.com/ 
+summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
+]

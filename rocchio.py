@@ -1,8 +1,10 @@
 import numpy as np
 import nltk
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 
-# nltk.download()
+
+nltk.download('stopwords')
 from string import punctuation
 import re
 
@@ -31,7 +33,10 @@ class Rocchio:
     def tokenizer(text):
         text = text.lower()
         text = re.sub(f"[{re.escape(punctuation)}]", "", text)  # Remove punctuation
+        text = re.sub("[^a-z]+", " ", text)
         res = text.split()  # Remove spaces, tabs, and new lines
+        res = [word for word in res if word not in stopwords.words('english')]
+
         # res = word_tokenize(text)
         return res
 

@@ -50,7 +50,7 @@ def search_by_query(service, query):
     results = []
     html_result = []
     non_html_idxs = set()
-    print(response["items"], "resssssssss")
+    # print(response["items"], "resssssssss")
 
     for i, r in enumerate(response["items"]):
         if "fileFormat" in r:
@@ -59,7 +59,7 @@ def search_by_query(service, query):
         else:
             html_result.append(parse_response(r))
         results.append(parse_response(r))
-    print("html_result", len(html_result))
+    # print("html_result", len(html_result))
     return results, html_result, non_html_idxs
 
 
@@ -78,6 +78,8 @@ def query_by_precision(precision, query, service):
     cur_query = query
     cur_threshold = precision * 10  # init threshold
     cur_rel_count = 0
+    all_relevant_docs = []
+    all_unrelevant_docs = []
 
     while cur_rel_count < cur_threshold:
         cur_rel_count = 0
@@ -89,7 +91,7 @@ def query_by_precision(precision, query, service):
         for i, r in enumerate(results):
             # gather precision from user feedback
             log(f"Result {i+1}")
-            # log(result_to_string(r))
+            log(result_to_string(r))
             ok = get_ok()
             docs_content = r["summary"]  # use snippet or else?
             if i in non_html_idxs:
