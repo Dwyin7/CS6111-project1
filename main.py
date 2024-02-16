@@ -24,7 +24,10 @@ def parse_response(response):
     r = {}
     r["title"] = response["title"]
     r["url"] = response["formattedUrl"]
-    r["summary"] = response["snippet"]
+    if "snippet" in response:
+        r["summary"] = response["snippet"]
+    else:
+        r["summary"] = None
     return r
 
 
@@ -93,7 +96,7 @@ def query_by_precision(precision, query, service):
             log(f"Result {i+1}")
             log(result_to_string(r))
             ok = get_ok()
-            docs_content = r["summary"]  # use snippet or else?
+            docs_content = r["title"] + " " + r["summary"]   # use snippet or else?
             if i in non_html_idxs:
                 # non html content
                 continue

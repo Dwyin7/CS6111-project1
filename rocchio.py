@@ -3,8 +3,19 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
+# download 'stopwords' package
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
 nltk.download('stopwords')
+
+
 from string import punctuation
 import re
 
@@ -62,6 +73,7 @@ class Rocchio:
 
     def run(self, alpha, beta, gamma):
         # return the new query
+        print(self.vocab)
 
         query_prev = self.vec_query
         rel = self.vec_rel
