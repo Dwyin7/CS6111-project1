@@ -2194,3 +2194,799 @@ title: New York City - Wikipedia
 url: https://en.wikipedia.org/wiki/New_York_City 
 summary: New York City was the capital of the United States from 1785 until 1790. ... The modern city was formed by the 1898 consolidation of its five boroughs: Manhattan, ... 
 ]
+Parameters:
+Query     = cases
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: CASES: Home 
+url: https://www.cases.org/ 
+summary: From court and program offices in the Bronx, Brooklyn, and Manhattan, CASES provides community-based alternatives to jail and prison. These programs address ... 
+]
+Result 2
+[ 
+title: cases | International Criminal Court 
+url: https://www.icc-cpi.int/cases 
+summary: Banda. At large. Case also involved Saleh Mohammed Jerbo Jamus but proceedings against him were terminated on 4 October 2013 following his passing. On 7 March ... 
+]
+Result 3
+[ 
+title: COVID - Coronavirus Statistics - Worldometer 
+url: https://www.worldometers.info/coronavirus/ 
+summary: Daily and weekly updated statistics tracking the number of COVID-19 cases, recovered, and deaths. Historical data with cumulative charts, graphs, ... 
+]
+Result 4
+[ 
+title: 2023-2024 Term | Oyez 
+url: https://www.oyez.org/cases 
+summary: US Supreme Court cases from the 2023-2024 term. 
+]
+Result 5
+[ 
+title: CASETiFY: Show Your Colors 
+url: https://www.casetify.com/ 
+summary: CASETiFY - We make the most sustainable yet protective phone cases for iPhone 15 / iPhone 15 Pro / iPhone 15 Plus / iPhone 15 Pro Max and tech accessories. 
+]
+Result 6
+[ 
+title: Automated Case Information 
+url: https://acis.eoir.justice.gov/ 
+summary: EOIR Automated Case Information ... Please check https://www.justice.gov/eoir-operational-status for up to date closures. ... Welcome to the Automated Case ... 
+]
+Result 7
+[ 
+title: Public Access to Court Electronic Records | PACER: Federal Court ... 
+url: https://pacer.uscourts.gov/ 
+summary: Search for a case in the federal court where the case was filed, or; Search a nationwide index of federal court cases. The PACER Service Center can assist you ... 
+]
+Result 8
+[ 
+title: Maryland Judiciary Case Search 
+url: https://casesearch.courts.state.md.us/ 
+summary: Confidential records and information will not be returned in your search results. The information displayed on this Web Site is generated from computerized ... 
+]
+Result 9
+[ 
+title: Cases | INTERNATIONAL COURT OF JUSTICE 
+url: https://www.icj-cij.org/cases 
+summary: Main navigation ... The Court has a twofold role: to settle, in accordance with international law, legal disputes submitted to it by States (contentious cases) ... 
+]
+Result 10
+[ 
+title: Measles Cases and Outbreaks | CDC 
+url: https://www.cdc.gov/measles/cases-outbreaks.html 
+summary: Measles cases in 2019 · From January 1 to December 31, 2019, 1,274* individual cases of measles were confirmed in 31 states. · This is the greatest number of ... 
+]
+Result 1
+[ 
+title: CDC COVID Data Tracker: Home 
+url: https://covid.cdc.gov/ 
+summary: This webpage presents data on COVID-19 cases with information on pregnancy status reported to CDC. COVID-19 is a nationally notifiable disease and reporting ... 
+]
+Parameters:
+Query     = cases
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: CASES: Home 
+url: https://www.cases.org/ 
+summary: From court and program offices in the Bronx, Brooklyn, and Manhattan, CASES provides community-based alternatives to jail and prison. These programs address ... 
+]
+Result 2
+[ 
+title: cases | International Criminal Court 
+url: https://www.icc-cpi.int/cases 
+summary: Banda. At large. Case also involved Saleh Mohammed Jerbo Jamus but proceedings against him were terminated on 4 October 2013 following his passing. On 7 March ... 
+]
+Result 3
+[ 
+title: COVID - Coronavirus Statistics - Worldometer 
+url: https://www.worldometers.info/coronavirus/ 
+summary: Daily and weekly updated statistics tracking the number of COVID-19 cases, recovered, and deaths. Historical data with cumulative charts, graphs, ... 
+]
+Result 4
+[ 
+title: 2023-2024 Term | Oyez 
+url: https://www.oyez.org/cases 
+summary: US Supreme Court cases from the 2023-2024 term. 
+]
+Result 5
+[ 
+title: CASETiFY: Show Your Colors 
+url: https://www.casetify.com/ 
+summary: CASETiFY - We make the most sustainable yet protective phone cases for iPhone 15 / iPhone 15 Pro / iPhone 15 Plus / iPhone 15 Pro Max and tech accessories. 
+]
+Result 6
+[ 
+title: Automated Case Information 
+url: https://acis.eoir.justice.gov/ 
+summary: EOIR Automated Case Information ... Please check https://www.justice.gov/eoir-operational-status for up to date closures. ... Welcome to the Automated Case ... 
+]
+Result 7
+[ 
+title: Public Access to Court Electronic Records | PACER: Federal Court ... 
+url: https://pacer.uscourts.gov/ 
+summary: Search for a case in the federal court where the case was filed, or; Search a nationwide index of federal court cases. The PACER Service Center can assist you ... 
+]
+Result 8
+[ 
+title: Maryland Judiciary Case Search 
+url: https://casesearch.courts.state.md.us/ 
+summary: Confidential records and information will not be returned in your search results. The information displayed on this Web Site is generated from computerized ... 
+]
+Result 9
+[ 
+title: Cases | INTERNATIONAL COURT OF JUSTICE 
+url: https://www.icj-cij.org/cases 
+summary: Main navigation ... The Court has a twofold role: to settle, in accordance with international law, legal disputes submitted to it by States (contentious cases) ... 
+]
+Result 10
+[ 
+title: Measles Cases and Outbreaks | CDC 
+url: https://www.cdc.gov/measles/cases-outbreaks.html 
+summary: Measles cases in 2019 · From January 1 to December 31, 2019, 1,274* individual cases of measles were confirmed in 31 states. · This is the greatest number of ... 
+]
+Result 1
+[ 
+title: CDC COVID Data Tracker: Home 
+url: https://covid.cdc.gov/ 
+summary: CDC's home for COVID-19 data. Visualizations, graphs, and data in one easy-to-use website. 
+]
+Result 2
+[ 
+title: COVID - Coronavirus Statistics - Worldometer 
+url: https://www.worldometers.info/coronavirus/ 
+summary: Coronavirus Cases: 703,341,113. view by country. Deaths: 6,984,050. Recovered: 674,094,830. Active Cases. 22,262,233. Currently Infected Patients. 22,226,409 ( ... 
+]
+Result 3
+[ 
+title: COVID-19: Latest Data - NYC Health 
+url: https://www.nyc.gov/site/doh/covid/covid-19-data.page 
+summary: Cases, Hospitalizations and Deaths. The data below show daily numbers of cases, hospitalizations and deaths over the past three months. Due to delays in ... 
+]
+Result 4
+[ 
+title: WHO COVID-19 dashboard: COVID-19 cases 
+url: https://covid19.who.int/ 
+summary: The latest data for coronavirus (COVID-19) cases from the WHO COVID-19 dashboard. 
+]
+Result 5
+[ 
+title: Data & Surveillance | CDC 
+url: https://www.cdc.gov/coronavirus/2019.../covid-19-data-and-surveillance.ht... 
+summary: COVID Data Tracker. COVID Data Basics. Hospitalizations · Deaths · Emergency ... Reporting COVID-19 Cases · Electronic Case Reporting · COVIDTracer & COVIDTracer ... 
+]
+Result 6
+[ 
+title: COVID-19 Map - Johns Hopkins Coronavirus Resource Center 
+url: https://coronavirus.jhu.edu/map.html 
+summary: Coronavirus COVID-19 Global Cases by the Center for Systems Science and ... Attribute the data to the "COVID-19 Data Repository by the Center for Systems ... 
+]
+Result 7
+[ 
+title: COVID-19 Data for Pennsylvania 
+url: https://www.health.pa.gov/topics/disease/coronavirus/pages/cases.aspx 
+summary: ... COVID-19 case data is no longer required to be reported to the Department of Health, making the case data less relevant for disease tracking purposes. 
+]
+Result 8
+[ 
+title: COVID-19 Reporting | Mass.gov 
+url: https://www.mass.gov/info-details/covid-19-reporting 
+summary: The COVID-19 Dashboard includes data on city/town COVID-19 activity, confirmed and probable cases of COVID-19, confirmed and probable deaths related to ... 
+]
+Result 9
+[ 
+title: LA County Daily COVID-19 Data - LA County Department of Public ... 
+url: http://publichealth.lacounty.gov/media/coronavirus/data/ 
+summary: Updated once per week on Thursdays. Overview Graphs. Overview Table. Cases/Deaths. TK-12 Schools. 
+]
+Result 10
+[ 
+title: COVID-19 Data In Virginia - Coronavirus 
+url: https://www.vdh.virginia.gov/coronavirus/see-the.../covid-19-in-virginia/ 
+summary: COVID-19 in Virginia (past 6 months). Case Data Demographics. Demographic data is an important indicator used to understand ... 
+]
+Parameters:
+Query     = red fruit
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Simple Red Fruit Salad - 101 Cookbooks 
+url: https://www.101cookbooks.com/red-fruit-salad-recipe/ 
+summary: Jun 30, 2018 ... Red fruit salad, arguably better than old-school fruit salad. Made with plump strawberries, sweet cherries, lemon zest, and coriander brown ... 
+]
+Result 2
+[ 
+title: The Red Fruit by Lee Gee Eun — Levine Querido 
+url: https://www.levinequerido.com/the-red-fruit 
+summary: From award-winning Korean illustrator Lee Gee Eun comes a gorgeously illustrated story – delightful at every beat – about first discoveries and always landing ... 
+]
+Result 3
+[ 
+title: Fruit Wine Co. - Shop 
+url: https://members.crunchyredfruit.com/shop/ 
+summary: Crunchy Red Fruit is a subscription wine club that brings you exciting, dynamic wines from all over the world. Every two months, you'll get a curated box of ... 
+]
+Result 4
+[ 
+title: Meddling Mirabel - no red fruit pie : r/DreamlightValley 
+url: https://www.reddit.com/r/.../12209kx/meddling_mirabel_no_red_fruit_pie/ 
+summary: Mar 25, 2023 ... Meddling Mirabel - no red fruit pie. Question. I have made countless red fruit pies and none of them are counting towards the quest. Any ... 
+]
+Result 5
+[ 
+title: The Red Fruit: Gee Eun, Lee: 9781646147007: Amazon.com: Books 
+url: https://www.amazon.com/Red-Fruit-Lee-Gee-Eun/dp/1646147006 
+summary: “Perfect for pre- and emerging readers… Playful.” ... “Children follow a baby bear on an adventure to find more of the delicious red fruit that has fallen to the ... 
+]
+Result 6
+[ 
+title: Mentos Gum Red Fruit Lime & Tropical - 50pc Curvy Bottle | Mentos ... 
+url: https://us.mentos.com/products/red-fruit-lime-and-tropical-50pc-curvy-bottle 
+summary: Mentos Red Fruit Lime and Tropical Gum contains a mix of bold fruit flavors that will keep your taste buds tingling chew after chew. Each bottle of Mentos ... 
+]
+Result 7
+[ 
+title: Red Fruits Fruit Spread - Bonne Maman 
+url: https://www.bonnemaman.us/fruit-spread-red-fruits-11-8-oz.html 
+summary: Made with the finest natural ingredients, full of large pieces of premium quality red fruits, Bonne Maman® Red Fruits Fruit Spread delivers an authentic, ... 
+]
+Result 8
+[ 
+title: Red Berries Breakfast Cereal | Special K® 
+url: https://www.specialk.com/en_US/products/cereal/red-berries-cereal.html 
+summary: Special K® Red Berries Cereal is bursting with real strawberries. Energize your mornings with the crunchy fruity goodness of rice and wheat flakes! 
+]
+Result 9
+[ 
+title: Pandanus conoideus - Wikipedia 
+url: https://en.wikipedia.org/wiki/Pandanus_conoideus 
+summary: The fruit has several names: marita (in Papua New Guinea local language), or buah merah ("red fruit", in Indonesian). The fruit is typically prepared by ... 
+]
+Result 10
+[ 
+title: Mentos Red Fruit Lime Tropical gum | Mentos Canada 
+url: https://www.mentos.ca/products/mentos-red-fruit-lime-tropical-gum 
+summary: Mentos Red Fruit Lime and Tropical Gum contains a mix of bold fruit flavours that will keep your taste buds tingling chew after chew. 
+]
+Parameters:
+Query     = red fruit
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Simple Red Fruit Salad - 101 Cookbooks 
+url: https://www.101cookbooks.com/red-fruit-salad-recipe/ 
+summary: Jun 30, 2018 ... Red fruit salad, arguably better than old-school fruit salad. Made with plump strawberries, sweet cherries, lemon zest, and coriander brown ... 
+]
+Result 2
+[ 
+title: The Red Fruit by Lee Gee Eun — Levine Querido 
+url: https://www.levinequerido.com/the-red-fruit 
+summary: From award-winning Korean illustrator Lee Gee Eun comes a gorgeously illustrated story – delightful at every beat – about first discoveries and always landing ... 
+]
+Result 3
+[ 
+title: Fruit Wine Co. - Shop 
+url: https://members.crunchyredfruit.com/shop/ 
+summary: Crunchy Red Fruit is a subscription wine club that brings you exciting, dynamic wines from all over the world. Every two months, you'll get a curated box of ... 
+]
+Result 4
+[ 
+title: Meddling Mirabel - no red fruit pie : r/DreamlightValley 
+url: https://www.reddit.com/r/.../12209kx/meddling_mirabel_no_red_fruit_pie/ 
+summary: Mar 25, 2023 ... Meddling Mirabel - no red fruit pie. Question. I have made countless red fruit pies and none of them are counting towards the quest. Any ... 
+]
+Result 5
+[ 
+title: The Red Fruit: Gee Eun, Lee: 9781646147007: Amazon.com: Books 
+url: https://www.amazon.com/Red-Fruit-Lee-Gee-Eun/dp/1646147006 
+summary: “Perfect for pre- and emerging readers… Playful.” ... “Children follow a baby bear on an adventure to find more of the delicious red fruit that has fallen to the ... 
+]
+Result 6
+[ 
+title: Mentos Gum Red Fruit Lime & Tropical - 50pc Curvy Bottle | Mentos ... 
+url: https://us.mentos.com/products/red-fruit-lime-and-tropical-50pc-curvy-bottle 
+summary: Mentos Red Fruit Lime and Tropical Gum contains a mix of bold fruit flavors that will keep your taste buds tingling chew after chew. Each bottle of Mentos ... 
+]
+Result 7
+[ 
+title: Red Fruits Fruit Spread - Bonne Maman 
+url: https://www.bonnemaman.us/fruit-spread-red-fruits-11-8-oz.html 
+summary: Made with the finest natural ingredients, full of large pieces of premium quality red fruits, Bonne Maman® Red Fruits Fruit Spread delivers an authentic, ... 
+]
+Result 8
+[ 
+title: Red Berries Breakfast Cereal | Special K® 
+url: https://www.specialk.com/en_US/products/cereal/red-berries-cereal.html 
+summary: Special K® Red Berries Cereal is bursting with real strawberries. Energize your mornings with the crunchy fruity goodness of rice and wheat flakes! 
+]
+Result 9
+[ 
+title: Pandanus conoideus - Wikipedia 
+url: https://en.wikipedia.org/wiki/Pandanus_conoideus 
+summary: The fruit has several names: marita (in Papua New Guinea local language), or buah merah ("red fruit", in Indonesian). The fruit is typically prepared by ... 
+]
+Result 10
+[ 
+title: Mentos Red Fruit Lime Tropical gum | Mentos Canada 
+url: https://www.mentos.ca/products/mentos-red-fruit-lime-tropical-gum 
+summary: Mentos Red Fruit Lime and Tropical Gum contains a mix of bold fruit flavours that will keep your taste buds tingling chew after chew. 
+]
+Result 1
+[ 
+title: Merlot: The Red Delicious Apple of the Wine World - Nova Cadamatre 
+url: https://novacadamatre.com/merlot-the-red-delicious-apple-of-the-wine-world/ 
+summary: Feb 14, 2012 ... It's moderately sweet, moderately acidic, and moderately crunchy which appeals to the mass majority of apple consumers. I was instantly struck ... 
+]
+Result 2
+[ 
+title: Store | Francis Ford Coppola Winery 
+url: https://www.francisfordcoppolawinery.com/store/ 
+summary: Diamond Collection Merlot. Featuring well-balanced fruit, lush with flavors of caramel, ripe red fruits and chocolate. $19.00. 
+]
+Result 3
+[ 
+title: Red Wine - Wine World 
+url: https://www.wineworldny.com/wines/?item_type=red 
+summary: Red Wine · Don David Reserve Malbec 0 (750) · 1000 Stories - Zinfandel 0 (750ml) · 14 Hands - Cabernet Sauvignon Columbia Valley 0 (750ml) · 14 Hands - Merlot ... 
+]
+Result 4
+[ 
+title: Stop in to see our selection of red, white, and ... - Glass Creek Winery 
+url: https://glasscreekwinery.com/wine/ 
+summary: Dec 30, 2023 ... Glass Creek Winery specializes in Red, White, Fruit, Specialty wines for all occasions ... Old World Blend. Fruit forward and bold, with flavors ... 
+]
+Result 5
+[ 
+title: Wine Magnums - Wine World 
+url: https://www.wineworldny.com/websearch_results.html?item_type=wine... 
+summary: Wine Magnums · Arbor Mist - Cherry Red Moscato 0 (1.5L) · Arbor Mist - Exotic Fruits White Zinfandel New York 0 (1.5L) · Arbor Mist - Island Fruits Pinot Grigio 0 ... 
+]
+Result 6
+[ 
+title: Red Schooner - Wagner Family of Wines 
+url: https://www.wagnerfamilyofwine.com/wine-shop/red-schooner/ 
+summary: Strikingly smooth, with scents and flavors of dark fruit and fine, textural tannins. ... Our “Red Wine of the World,” is a red blend is sourced from famed regions ... 
+]
+Result 7
+[ 
+title: Easy Traditional Red Sangria | Minimalist Baker Recipes 
+url: https://minimalistbaker.com/easy-traditional-red-sangria/ 
+summary: Pouring red wine into a pitcher for our homemade Traditional Red Sangria recipe. This recipe is my humble offering to a sangria-loving world. I've tasted ... 
+]
+Result 8
+[ 
+title: Wine - Wikipedia 
+url: https://en.wikipedia.org/wiki/Wine 
+summary: Wine is an alcoholic drink made from fermented fruit. Yeast consumes the sugar in the fruits and converts it to ethanol and carbon dioxide, releasing heat ... 
+]
+Result 9
+[ 
+title: Types of Red Wine | Wine Guide | Virgin Wines 
+url: https://www.virginwines.co.uk/hub/wine-guide/wine.../types-of-red-wine/ 
+summary: The most popular types of red wine include Cabernet Sauvignon, Merlot, Shiraz, Pinot Noir, Malbec, Zinfandel, Grenache and Sangiovese. Many red wines, such as ... 
+]
+Result 10
+[ 
+title: Traverse Bay – Michigan Cherry Wine (Red) 
+url: https://cgtwines.com/product/cherry-wine/ 
+summary: Discover this unique cherry wine crafted in the cherry capital of the world: Traverse City. ... fruit qualities, ripe flavors, and beautiful cherry red wine color ... 
+]
+Parameters:
+Query     = fruit red wine world
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Easy Traditional Red Sangria | Minimalist Baker Recipes 
+url: https://minimalistbaker.com/easy-traditional-red-sangria/ 
+summary: However, any fruity, full bodied, somewhat-dry red Spanish wine will do. ... Perhaps World Market? They change things up though so it might not still be there ... 
+]
+Result 2
+[ 
+title: The Smoothest Red Wines For Beginners – The Wine Ninjas 
+url: https://wineninjas.org/2019/03/01/smoothest-red-wines-for-beginners/ 
+summary: Mar 1, 2019 ... ... red wine in the world right now, and with good reason. Australian Shiraz bursts with body and fizzes with mouth-watering, rich, dark fruits. 
+]
+Result 3
+[ 
+title: Store | Francis Ford Coppola Winery 
+url: https://www.francisfordcoppolawinery.com/store/ 
+summary: Diamond Collection Merlot. Featuring well-balanced fruit, lush with flavors of caramel, ripe red fruits and chocolate. $19.00. 
+]
+Result 4
+[ 
+title: Types of Red Wine | Wine Guide | Virgin Wines 
+url: https://www.virginwines.co.uk/hub/wine-guide/wine.../types-of-red-wine/ 
+summary: Similar to Cabernet Sauvignon, Merlot can vary in taste across the world. It's common to find Merlot packed with fruity flavours of black berries, plum and ... 
+]
+Result 5
+[ 
+title: Wine - Wikipedia 
+url: https://en.wikipedia.org/wiki/Wine 
+summary: Wine is an alcoholic drink made from fermented fruit. Yeast consumes the sugar in the fruits and converts it to ethanol and carbon dioxide, releasing heat ... 
+]
+Parameters:
+Query     = 23andMe
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: 23andMe: DNA Genetic Testing For Health, Ancestry And More 
+url: https://www.23andme.com/ 
+summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
+]
+Result 2
+[ 
+title: 23andMe Health + Ancestry Service: Personal ... - Amazon.com 
+url: https://www.amazon.com/23andMe-DNA-Test-Ancestry.../B01G7PYQTM 
+summary: Description. Before Mailing, register your DNA test kit at 23andMe online otherwise, your saliva sample will NOT be processed. 23andMe Health + Ancestry Service ... 
+]
+Result 3
+[ 
+title: DNA Genetic Testing For Ancestry & Traits - 23andMe International 
+url: https://www.23andme.com/en-int/ 
+summary: 23andMe is a saliva-based DNA service. We provide genetic reports on your ancestry, family history and help you connect with your DNA relatives. 
+]
+Result 4
+[ 
+title: Addressing Data Security Concerns - 23andMe Blog 
+url: https://blog.23andme.com/articles/addressing-data-security-concerns 
+summary: Oct 6, 2023 ... Since detecting the incident, we emailed all customers to notify them of the investigation and are continuing to notify impacted customers, ... 
+]
+Result 5
+[ 
+title: DNA Genetic Testing For Health, Ancestry And More - 23andMe ... 
+url: https://www.23andme.com/en-gb/ 
+summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
+]
+Result 6
+[ 
+title: 23andMe - Wikipedia 
+url: https://en.wikipedia.org/wiki/23andMe 
+summary: Linda Avey, Paul Cusenza and Anne Wojcicki founded 23andMe in 2006 to offer genetic testing and interpretation to individuals. ... Investment documents from 2007 ... 
+]
+Result 7
+[ 
+title: 23andMe DNA Ancestry Test Kit - Find DNA Relatives - 23andMe 
+url: https://www.23andme.com/dna-ancestry/ 
+summary: The 23andMe Ancestry DNA testing service offers ancestry breakdowns across 2750+ geographic regions plus insight into your heritage, relatives and more. 
+]
+Result 8
+[ 
+title: Accessing Your Raw Genetic Data – 23andMe Customer Care 
+url: https://customercare.23andme.com/.../212196868-Accessing-Your-Raw-Ge... 
+summary: Visit your Account Settings and click on “View” under 23andMe Data. You will see a blue “Download Raw Data” button which will redirect you to the download raw ... 
+]
+Result 9
+[ 
+title: 23andMe Blog - Welcome to The World of Genetics 
+url: https://blog.23andme.com/ 
+summary: Learn more about the world of genetics on 23andMe's Blog! Discovery of what your DNA can tell you about health, ancestry, and science. 
+]
+Result 10
+[ 
+title: Press Release - 23andMe Media Center 
+url: https://mediacenter.23andme.com/ 
+summary: 2020 · Nov 18, 2020. 23andMe Finds Pandemic is Forcing Majority of People to Change Holiday Plans · Aug 18, 2020. 23andMe Granted New FDA Clearance to Provide ... 
+]
+Parameters:
+Query     = 23andMe
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: 23andMe: DNA Genetic Testing For Health, Ancestry And More 
+url: https://www.23andme.com/ 
+summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
+]
+Result 2
+[ 
+title: 23andMe Health + Ancestry Service: Personal ... - Amazon.com 
+url: https://www.amazon.com/23andMe-DNA-Test-Ancestry.../B01G7PYQTM 
+summary: Description. Before Mailing, register your DNA test kit at 23andMe online otherwise, your saliva sample will NOT be processed. 23andMe Health + Ancestry Service ... 
+]
+Result 3
+[ 
+title: DNA Genetic Testing For Ancestry & Traits - 23andMe International 
+url: https://www.23andme.com/en-int/ 
+summary: 23andMe is a saliva-based DNA service. We provide genetic reports on your ancestry, family history and help you connect with your DNA relatives. 
+]
+Result 4
+[ 
+title: Addressing Data Security Concerns - 23andMe Blog 
+url: https://blog.23andme.com/articles/addressing-data-security-concerns 
+summary: Oct 6, 2023 ... Since detecting the incident, we emailed all customers to notify them of the investigation and are continuing to notify impacted customers, ... 
+]
+Result 5
+[ 
+title: DNA Genetic Testing For Health, Ancestry And More - 23andMe ... 
+url: https://www.23andme.com/en-gb/ 
+summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
+]
+Parameters:
+Query     = wojcicki
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+Result 2
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+Result 3
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+Result 4
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7626 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+Result 5
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: CEO and Co-Founder, 23andMe. 
+]
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Esther Wojcicki (@EstherWojcicki) / X 
+url: https://twitter.com/EstherWojcicki 
+summary: Educator, journalist, IT & OER consultant, author of "How to Raise Successful People," speaker. 
+]
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+Result 9
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+Result 10
+[ 
+title: How Wojcicki sisters grew up to become highly successful CEOs ... 
+url: https://www.cnbc.com/.../how-wojcicki-sisters-grew-up-to-become-highly-s... 
+summary: Mar 17, 2023 ... Anne, Susan and Janet Wojcicki all have high-powered careers, from running companies like YouTube and 23andMe to being a doctor and ... 
+]
+Result 1
+[ 
+title: 23andMe: DNA Genetic Testing For Health, Ancestry And More 
+url: https://www.23andme.com/ 
+summary: 23andMe offers DNA testing with the most comprehensive ancestry breakdown, personalized health insights and more. 
+]
+Result 2
+[ 
+title: Anne Wojcicki Archives - 23andMe Blog 
+url: https://blog.23andme.com/tag/anne-wojcicki 
+summary: Anne Wojcicki, 23andMe's CEO, co-founded the company in 2006, three years after the first human genome was sequenced. Access, Understand and Benefit Her ... 
+]
+Result 3
+[ 
+title: Anne Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Anne_Wojcicki 
+summary: Anne E. Wojcicki is an American entrepreneur who co-founded and is CEO of the personal genomics company 23andMe. She founded the company in 2006 with Linda ... 
+]
+Result 4
+[ 
+title: 23andMe CEO Anne Wojcicki's vision for changing healthcare as a ... 
+url: https://www.pharmavoice.com/news/23andme...anne-wojcicki.../698919/ 
+summary: Nov 7, 2023 ... And I realized the world was focused on revenue optimization and not on dramatic changes to keep you and me healthier.” Anne Wojcicki. CEO ... 
+]
+Result 5
+[ 
+title: Anne Wojcicki (@annewoj23) / X 
+url: https://twitter.com/annewoj23?lang=en 
+summary: Anne Wojcicki's posts ... Great podcast talking about genetics in drug discovery, featuring Matt Nelson. “Scale matters in the genetics of complex disease. With ... 
+]
+Result 6
+[ 
+title: Anne Wojcicki - 23andMe | LinkedIn 
+url: https://www.linkedin.com/in/annewojcicki 
+summary: View Anne Wojcicki's profile on LinkedIn, the world's largest professional community. Anne has 5 jobs listed on their profile. See the complete profile on ... 
+]
+Result 7
+[ 
+title: Leadership | 23andMe, Inc. 
+url: https://investors.23andme.com/corporate-governance/leadership 
+summary: Anne Wojcicki; CEO and Co-Founder. Anne co-founded 23andMe in 2006, three years after the first human genome was sequenced. Her goal was ... 
+]
+Result 8
+[ 
+title: Anne Wojcicki 
+url: https://www.forbes.com/profile/anne-wojcicki/ 
+summary: 91 Anne Wojcicki on the 2023 America's Self-Made Women - Anne Wojcicki is the cofounder and CEO of 23andMe, a pioneering direct-to-consumer genetics ... 
+]
+Result 9
+[ 
+title: How Anne and Susan Wojcicki's parents raised the founder of ... 
+url: https://www.cnbc.com/.../how-the-wojcickis-parents-raised-23andme-found... 
+summary: Jun 18, 2018 ... A third sister is a Ph.D. and Fulbright scholar. Anne Wojcicki of 23andMe says growing up, she had a lot of independence. 
+]
+Result 10
+[ 
+title: Live Long And Prosper: How Anne Wojcicki's 23andMe Will Mine Its ... 
+url: https://www.forbes.com/.../23andme-dna-test-anne-wojcicki-prevention-pla... 
+summary: Jun 6, 2019 ... Anne Wojcicki built the world's biggest genetic research database, and booked an estimated $475 million in annual sales, by selling 10 ... 
+]
+Parameters:
+Query     = jaguar
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Jaguar USA: Jaguar Sedans, SUVs and Sports Cars - Official Site 
+url: https://www.jaguarusa.com/index.html 
+summary: The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports cars. Build Your Own, Book a Test Drive or Find a Retailer near you. 
+]
+Result 2
+[ 
+title: Market Selector | Jaguar | View the site in your preferred language 
+url: https://www.jaguar.com/market-selector.html 
+summary: Discover the different language sites we have to make browsing our vehicle range's easier. We have over 100 different language options available. 
+]
+Result 3
+[ 
+title: Jaguar - Wikipedia 
+url: https://en.wikipedia.org/wiki/Jaguar 
+summary: The jaguar is a compact and muscular animal. It is the largest cat native to the Americas and the third largest in the world, exceeded in size only by the tiger ... 
+]
+Result 4
+[ 
+title: Jaguar Homepage International 
+url: https://media.jaguar.com/en 
+summary: All The Latest Images And Photos Of The Iconic Jaguar Models. Browse Through Our Archives Quickly And Easily, And Download Low Or High Resolution Shots. 
+]
+Result 5
+[ 
+title: Jaguar Restaurant: Home 
+url: https://jaguarrestaurant.com/ 
+summary: Latin American Habitat. Respected and revered for thousand of years, the jaguar has played an important role in the ecosystems of its natural habitat, Central ... 
+]
+Result 6
+[ 
+title: Jaguar (@jaguar) • Instagram photos and videos 
+url: https://www.instagram.com/jaguar/?hl=en 
+summary: 14M Followers, 1 Following, 178 Posts - See Instagram photos and videos from Jaguar (@jaguar) 
+]
+Result 7
+[ 
+title: Jaguar | Species | WWF 
+url: https://www.worldwildlife.org/species/jaguar 
+summary: The lands once ruled by jaguars are being destroyed by logging, large-scale agriculture, ranchland, and urban areas. Habitat fragmentation makes it incredibly ... 
+]
+Result 8
+[ 
+title: REIMAGINE | JLR Corporate Website 
+url: https://www.jaguarlandrover.com/reimagine 
+summary: Jaguar Land Rover and Wolfspeed, Inc. have announced a strategic partnership to supply Silicon Carbide semiconductors for next generation electric vehicles, ... 
+]
+Result 9
+[ 
+title: Land Rover | Explore Luxury SUVs and 4x4 Vehicles 
+url: https://www.landroverusa.com/index.html 
+summary: Jaguar Land Rover Limited is constantly seeking ways to improve the specification, design and production of its vehicles, parts, options and/or accessories ... 
+]
+Result 10
+[ 
+title: Jaguar Sun 
+url: https://jaguarsunmia.com/ 
+summary: We are open seven days a week from 5:00 pm - 1:00 am. The kitchen is open until 11:00 during the week and 12:00 on weekends. 
+]
+Result 1
+[ 
+title: Sort large CSV files (90GB), Disk quota exceeded - Unix & Linux ... 
+url: https://unix.stackexchange.com/.../sort-large-csv-files-90gb-disk-quota-exc... 
+summary: Mar 8, 2017 ... The problem is that you seem to have a disk quota set up and your user doesn't have the right to take up so much space in /some_dir . 
+]
+Result 2
+[ 
+title: Largest jaguar subspecies | Guinness World Records 
+url: https://www.guinnessworldrecords.com/world.../100709-largest-jaguar 
+summary: The jaguar Panthera onca is the world's third largest species of cat (exceeded only by the tiger and lion), and is therefore the largest cat in the New ... 
+]
+Result 3
+[ 
+title: typescript - Angular <img src> Maximum call stack size exceeded ... 
+url: https://stackoverflow.com/.../angular-img-src-maximum-call-stack-size-exc... 
+summary: Jun 21, 2019 ... I'm loading some images from a service like suggested in this thread but sometimes I get the error Maximum call stack size exceeded . 
+]
+Result 4
+[ 
+title: Jaguar TCS Racing Partners | Exceeding Together | Jaguar 
+url: https://www.jaguarusa.com/jaguar-racing/our-partners.html 
+summary: TCS is an IT services, consulting, and business solutions organization that has been digitally transforming many of the world's largest businesses for over 55 ... 
+]
+Result 5
+[ 
+title: Jaguar Land Rover Recognises Its Global Supplier Excellence | JLR ... 
+url: https://media.jaguarlandrover.com/.../jaguar-land-rover-recognises-its-glob... 
+summary: May 13, 2016 ... ... exceeded expectations and helped Jaguar Land Rover to meet our growing production capabilities. ... Jaguar Land Rover is largest automotive ... 
+]
+Result 6
+[ 
+title: Modern Weights and Measurements of Jaguars 
+url: https://wildfact.com/.../topic-modern-weights-and-measurements-of-jaguars... 
+summary: The largest leopard skulls can exceed 280 mm. in greatest total length, whereas large jaguar skulls exceed 300,00 mm. Although generally a ... 
+]
+Result 7
+[ 
+title: ajax - The uploaded file likely exceeded the maximum file size (32 ... 
+url: https://drupal.stackexchange.com/.../the-uploaded-file-likely-exceeded-the-... 
+summary: Sep 6, 2014 ... The uploaded file likely exceeded the maximum file size (32 MB) that this server supports. ... What tech is Jaguar Land Rover + UK government ... 
+]
+Result 8
+[ 
+title: Howler Magazine Costa Rica - Jaguar King of the Cats Jaguars are ... 
+url: https://www.facebook.com/HowlerCostaRica/.../a.../2150972195035848/?... 
+summary: Dec 2, 2020 ... Jaguar King of the Cats Jaguars are the largest feline species in ... exceeded 300 pounds! The type of jaguars native to Costa Rica may exist ... 
+]
+Result 9
+[ 
+title: Progress on jaguar conservation in Suriname 
+url: https://news.mongabay.com/.../progress-on-jaguar-conservation-in-surinam... 
+summary: Nov 20, 2018 ... ... jaguar is the world's third largest feline, exceeded in size only by the lion and the tiger. The largest male jaguars can tip the scale at ... 
+]
+Result 10
+[ 
+title: 1991 Lotus Elan Exceeds Expectations 
+url: https://www.caranddriver.com/reviews/.../1991-lotus-elan-archive-test/ 
+summary: 1991 Lotus Elan Exceeds Expectations ... Rather than trying to impress you with stiffness and dartiness, the Elan feels strikingly like a much larger car—a Jaguar ... 
+]
+ahhhhh non-html
+Result 1
+[ 
+title: Are Tigers 'Brainier' Than Lions? 
+url: https://wildfact.com/forum/topic-are-tigers-brainier-than-lions?page=7 
+summary: As far I know, the largest jaguar skull measured 32.4 mm and came ... The longest I saw exceeded 370,00 mm. At least 3 skulls of wild Indian ... 
+]
+Result 2
+[ 
+title: Vehicle Standards Information 5 - Vehicle Dimension limits 
+url: https://nacto.org/docs/usdg/vehicle_standards_information_nsw.pdf 
+summary: Nov 9, 2012 ... A restricted access vehicle means a single motor vehicle or a combination which alone or together with any loads, exceeds a general access ... 
+]
+Result 3
+[ 
+title: Size comparisons 
+url: https://wildfact.com/forum/topic-size-comparisons?page=32 
+summary: In the skull department, the differences between adult male leopards of large subspecies (about 240-245 mm.) and adult male jaguars or large ... 
+]
+Result 4
+[ 
+title: car sales: In demand race, big cars outpace other segments - The ... 
+url: https://m.economictimes.com/industry/auto/cars.../100733098.cms 
+summary: Jun 4, 2023 ... By contrast, premium vehicles — usually large-sized SUVs and MPVs exceeding 4,500 mm ... Jaguar-Land Rover and Audi. Luxury carmakers continue ... 
+]

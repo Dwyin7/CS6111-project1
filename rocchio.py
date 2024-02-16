@@ -13,7 +13,7 @@ except AttributeError:
 else:
     ssl._create_default_https_context = _create_unverified_https_context
 
-nltk.download('stopwords')
+nltk.download("stopwords")
 
 
 from string import punctuation
@@ -46,7 +46,7 @@ class Rocchio:
         text = re.sub(f"[{re.escape(punctuation)}]", "", text)  # Remove punctuation
         text = re.sub("[^a-z]+", " ", text)
         res = text.split()  # Remove spaces, tabs, and new lines
-        res = [word for word in res if word not in stopwords.words('english')]
+        res = [word for word in res if word not in stopwords.words("english")]
 
         # res = word_tokenize(text)
         return res
@@ -93,7 +93,14 @@ class Rocchio:
             for i, diff in enumerate(difference)
             if diff > 0 and query_prev[i] == 0
         ]
+        old_tokens = [
+            (i, diff) for i, diff in enumerate(difference) if query_prev[i] == 1
+        ]
+
         top_new_tokens = sorted(all_new_tokens, key=lambda x: x[1], reverse=True)[:2]
 
-        res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
+        res_tokens = sorted(old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True)
+
+        # res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
+        res = " ".join([self.vocab[i] for i, _ in res_tokens])
         return res
