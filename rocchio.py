@@ -2,6 +2,9 @@ import numpy as np
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from itertools import permutations
+
 
 # download 'stopwords' package
 import ssl
@@ -37,6 +40,8 @@ class Rocchio:
         # self.unrelevant_docs = unrelevant_docs
         self.all_docs = relevant_docs + unrelevant_docs
 
+        self.n = 2
+
         self.relevant_docs_token = [self.tokenizer(d) for d in relevant_docs]
         self.unrelevant_docs_token = [self.tokenizer(d) for d in unrelevant_docs]
         self.all_docs_token = self.relevant_docs_token + self.unrelevant_docs_token
@@ -56,6 +61,15 @@ class Rocchio:
         text = re.sub("[^a-z]+", " ", text)
         res = text.split()  # Remove spaces, tabs, and new lines
         res = [word for word in res if word not in stopwords.words("english")]
+        # ps = PorterStemmer()
+        # stemmed_words_set = set()
+
+        # for word in res:
+        #     stemmed_word = ps.stem(word)
+        #     if stemmed_word not in stopwords.words("english"):
+        #         stemmed_words_set.add(stemmed_word)
+        #
+        # return list(stemmed_words_set)
 
         # res = word_tokenize(text)
         return res
@@ -130,6 +144,46 @@ class Rocchio:
             temp_res.append(temp)
         return np.array(temp_res)
 
+    def generate_ngrams(self, n, all_docs_token):
+
+        ngrams = {}
+
+        # Iterate through the words to generate n-grams
+        for doc in all_docs_token:
+            for i in range(len(doc) - n + 1):
+                # Construct the 2-gram word
+
+                ngram_word = ' '.join([doc[i], doc[i + n -1]])
+
+                # Add the 2-gram word to the dictionary and update its occurrence count
+                if ngram_word in ngrams:
+                    ngrams[ngram_word] += 1
+                else:
+                    ngrams[ngram_word] = 1
+
+        return ngrams
+
+    def generate_groups(self, res_tokens, n, ngrams):
+        words = [self.vocab[idx] for idx, _ in res_tokens]
+        # print(words, len(words), n)
+        # print(list(combinations(words, n)))
+
+        all_groups =[]
+
+        # Generate all combinations of n numbers from the given list
+        for group in permutations(words, n):
+            # print(group)
+            all_groups.append(' '.join(group))
+        print(all_groups)
+
+        possible_n_gram = sorted(
+            all_groups, key=lambda x: ngrams[x] if x not in ngrams else float('-inf')
+        )
+
+        possible_n_gram = [lst for lst in possible_n_gram if ngrams[lst] > 0]
+
+        return possible_n_gram
+
     def run(self, alpha, beta, gamma):
         # return the new query
         # print(self.vocab)
@@ -164,7 +218,26 @@ class Rocchio:
         res_tokens = sorted(
             old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True
         )
-        print(res_tokens)
+
+
+        n_gram_dict = self.generate_ngrams(self.n, self.relevant_docs_token)
+
+
+        possible_n_gram = self.generate_groups(res_tokens,self.n, n_gram_dict)
+        # print(n_gram_dict)
+        print(possible_n_gram)
+
+        result = ""
+        used = set()
+
+
+
+        return -1
+
+
+        # print(res_tokens)
         # res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
-        res = " ".join([self.vocab[i] for i, _ in res_tokens])
-        return res
+
+        # res = " ".join([self.vocab[i] for i, _ in res_tokens])
+
+
