@@ -18,6 +18,7 @@ nltk.download("stopwords")
 
 from string import punctuation
 import re
+import math
 
 
 class Rocchio:
@@ -32,11 +33,19 @@ class Rocchio:
         self.num_unrelevant_docs = len(unrelevant_docs)
         self.relevant_docs = " ".join(relevant_docs)
         self.unrelevant_docs = " ".join(unrelevant_docs)
+        # self.relevant_docs = relevant_docs
+        # self.unrelevant_docs = unrelevant_docs
+        self.all_docs = relevant_docs + unrelevant_docs
+
+        self.relevant_docs_token = [self.tokenizer(d) for d in relevant_docs]
+        self.unrelevant_docs_token = [self.tokenizer(d) for d in unrelevant_docs]
+        self.all_docs_token = self.relevant_docs_token + self.unrelevant_docs_token
+
         self.query = query
         self.vocab = None
         self.get_vocab()
-        self.vec_rel = None
-        self.vec_unrel = None
+        self.vecs_rel = None
+        self.vecs_unrel = None
         self.vec_query = None
         self.get_vec()
 
@@ -62,22 +71,75 @@ class Rocchio:
             mp[t] += 1
         return mp
 
+    # def get_vec(self):
+    #     rel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.relevant_docs))
+    #     unrel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.unrelevant_docs))
+    #     query_mp = self.map_vec(self.vocab, self.tokenizer(self.query))
+    #     self.vec_rel = np.array([rel_docs_mp[k] for k in self.vocab])
+    #     self.vec_unrel = np.array([unrel_docs_mp[k] for k in self.vocab])
+    #     self.vec_query = np.array([query_mp[k] for k in self.vocab])
+    # print(self.vec_query, self.vec_unrel)
     def get_vec(self):
-        rel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.relevant_docs))
-        unrel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.unrelevant_docs))
+        idf_map = self.get_idf(self.vocab, self.all_docs_token)
+        self.vecs_unrel = [
+            self.get_tf_idf(self.vocab, idf_map, tokens)
+            for tokens in self.unrelevant_docs_token
+        ]
+        self.vecs_rel = [
+            self.get_tf_idf(self.vocab, idf_map, tokens)
+            for tokens in self.relevant_docs_token
+        ]
         query_mp = self.map_vec(self.vocab, self.tokenizer(self.query))
-        self.vec_rel = np.array([rel_docs_mp[k] for k in self.vocab])
-        self.vec_unrel = np.array([unrel_docs_mp[k] for k in self.vocab])
         self.vec_query = np.array([query_mp[k] for k in self.vocab])
-        # print(self.vec_query, self.vec_unrel)
+        # print(self.vecs_unrel)
+
+    def get_idf(self, vocab, all_docs):
+        # vocab: list of tokens
+        # all_docs: list all list of tokens, rel and unrel
+        # return df
+        res = dict()
+        all_docs_set = [set(s) for s in all_docs]
+        for word in vocab:
+            res[word] = 0
+            for d in all_docs_set:
+                if word in d:
+                    res[word] += 1
+        result = dict()
+        for k, v in res.items():
+            result[k] = math.log10(len(all_docs) / v)
+        # return np.array([result[k] for k in self.vocab])
+        return result
+
+    def get_tf_idf(self, vocab, idf_map, tokens):
+        # vocab: list of vocab
+        # idf_map: [word: its idf
+        # tokens: words in a doc
+        # return vec of document tf_idf
+        token_freq = dict()
+        temp_res = []
+        for t in tokens:
+            if t not in token_freq:
+                token_freq[t] = 1
+            else:
+                token_freq[t] += 1
+        for t in vocab:
+            freq = 0
+            if t in token_freq:
+                freq = token_freq[t]
+            temp = math.log10(freq + 1) * idf_map[t]
+            temp_res.append(temp)
+        return np.array(temp_res)
 
     def run(self, alpha, beta, gamma):
         # return the new query
-        print(self.vocab)
+        # print(self.vocab)
 
         query_prev = self.vec_query
-        rel = self.vec_rel
-        unrel = self.vec_unrel
+        vecs_rel_norm = [v / np.linalg.norm(v, ord=2) for v in self.vecs_rel]
+        vecs_unrel_norm = [v / np.linalg.norm(v, ord=2) for v in self.vecs_unrel]
+
+        rel = np.sum(vecs_rel_norm, axis=0)
+        unrel = np.sum(vecs_unrel_norm, axis=0)
         query_new = (
             alpha * query_prev
             + (beta / self.num_relevant_docs) * rel
@@ -99,8 +161,10 @@ class Rocchio:
 
         top_new_tokens = sorted(all_new_tokens, key=lambda x: x[1], reverse=True)[:2]
 
-        res_tokens = sorted(old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True)
-
+        res_tokens = sorted(
+            old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True
+        )
+        print(res_tokens)
         # res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
         res = " ".join([self.vocab[i] for i, _ in res_tokens])
         return res
