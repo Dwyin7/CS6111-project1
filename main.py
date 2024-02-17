@@ -103,8 +103,8 @@ def query_by_precision(precision, query, service):
             if i in non_html_idxs:
                 # non html content
                 continue
-            html_clean_text = fetch_text(r["url"])
-            docs_content += " " + html_clean_text
+            # html_clean_text = fetch_text(r["url"])
+            # docs_content += " " + html_clean_text
             # print(html_clean_text)
             cur_rel_count += ok
             if ok == 1:
