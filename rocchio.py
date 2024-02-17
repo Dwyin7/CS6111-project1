@@ -2,9 +2,13 @@ import numpy as np
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
 
 # download 'stopwords' package
 import ssl
+from gensim.models import Word2Vec
+
+# Assuming `all_docs_token` is a list of lists of tokens for each document
 
 try:
     _create_unverified_https_context = ssl._create_unverified_context
@@ -57,7 +61,6 @@ class Rocchio:
         res = text.split()  # Remove spaces, tabs, and new lines
         res = [word for word in res if word not in stopwords.words("english")]
 
-        # res = word_tokenize(text)
         return res
 
     def get_vocab(self):
@@ -71,14 +74,6 @@ class Rocchio:
             mp[t] += 1
         return mp
 
-    # def get_vec(self):
-    #     rel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.relevant_docs))
-    #     unrel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.unrelevant_docs))
-    #     query_mp = self.map_vec(self.vocab, self.tokenizer(self.query))
-    #     self.vec_rel = np.array([rel_docs_mp[k] for k in self.vocab])
-    #     self.vec_unrel = np.array([unrel_docs_mp[k] for k in self.vocab])
-    #     self.vec_query = np.array([query_mp[k] for k in self.vocab])
-    # print(self.vec_query, self.vec_unrel)
     def get_vec(self):
         idf_map = self.get_idf(self.vocab, self.all_docs_token)
         self.vecs_unrel = [
@@ -91,7 +86,6 @@ class Rocchio:
         ]
         query_mp = self.map_vec(self.vocab, self.tokenizer(self.query))
         self.vec_query = np.array([query_mp[k] for k in self.vocab])
-        # print(self.vecs_unrel)
 
     def get_idf(self, vocab, all_docs):
         # vocab: list of tokens
@@ -132,8 +126,6 @@ class Rocchio:
 
     def run(self, alpha, beta, gamma):
         # return the new query
-        # print(self.vocab)
-
         query_prev = self.vec_query
         vecs_rel_norm = [v / np.linalg.norm(v, ord=2) for v in self.vecs_rel]
         vecs_unrel_norm = [v / np.linalg.norm(v, ord=2) for v in self.vecs_unrel]
@@ -164,7 +156,7 @@ class Rocchio:
         res_tokens = sorted(
             old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True
         )
-        print(res_tokens)
+        # print(res_tokens)
         # res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
         res = " ".join([self.vocab[i] for i, _ in res_tokens])
         return res
