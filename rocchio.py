@@ -171,16 +171,31 @@ class Rocchio:
         all_groups =[]
 
         # Generate all combinations of n numbers from the given list
-        for group in permutations(words, n):
-            # print(group)
+        for group in permutations(words, len(words)):
             all_groups.append(' '.join(group))
         print(all_groups)
 
-        possible_n_gram = sorted(
-            all_groups, key=lambda x: ngrams[x] if x not in ngrams else float('-inf')
-        )
+        prob_map = dict()
+        for group in all_groups:
+            i = 2
+            occ = 0
+            while i < len(group):
+                s = group[:i]
+                if s in ngrams:
+                    occ += ngrams[s]
+                i += 1
+            prob_map[occ] = group
+        max_key = max(prob_map.keys())
+        res = prob_map[max_key]
+        return res
 
-        possible_n_gram = [lst for lst in possible_n_gram if ngrams[lst] > 0]
+        
+
+        # possible_n_gram = sorted(
+        #     all_groups, key=lambda x: ngrams[x] if x not in ngrams else float('-inf')
+        # )
+
+        # possible_n_gram = [lst for lst in possible_n_gram if ngrams[lst] > 0]
 
         return possible_n_gram
 
@@ -224,6 +239,7 @@ class Rocchio:
 
 
         possible_n_gram = self.generate_groups(res_tokens,self.n, n_gram_dict)
+        return possible_n_gram
         # print(n_gram_dict)
         print(possible_n_gram)
 

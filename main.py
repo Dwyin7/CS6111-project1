@@ -2,6 +2,9 @@ import pprint
 from googleapiclient.discovery import build
 import argparse
 from rocchio import Rocchio
+import requests
+from bs4 import BeautifulSoup
+import requests
 
 CX = "56f4e4ae2f4944372"
 KEY = "AIzaSyDB1xiTbkdr2O8KhnWdHrCJ8jBAfdnxii4"
@@ -53,7 +56,7 @@ def search_by_query(service, query):
     results = []
     html_result = []
     non_html_idxs = set()
-    # print(response["items"], "resssssssss")
+    log(str(response), p=False)
 
     for i, r in enumerate(response["items"]):
         if "fileFormat" in r:
@@ -96,11 +99,13 @@ def query_by_precision(precision, query, service):
             log(f"Result {i+1}")
             log(result_to_string(r))
             ok = get_ok()
-            docs_content = r["title"] + " " + r["summary"]   # use snippet or else?
+            docs_content = r["title"] + " " + r["summary"]  # use snippet or else?
             if i in non_html_idxs:
                 # non html content
                 continue
-
+            html_clean_text = fetch_text(r["url"])
+            docs_content += " " + html_clean_text
+            # print(html_clean_text)
             cur_rel_count += ok
             if ok == 1:
                 # relevant case
@@ -122,8 +127,20 @@ def query_by_precision(precision, query, service):
                 unrelevant_docs=unrelevant_docs,
                 query=cur_query,
             )
-            cur_query = instance.run(1, 1, 0.5)
+            cur_query = instance.run(1, 16, 4)
             print("new query:    ", cur_query)
+
+
+def fetch_text(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+    for script_or_style in soup(["script", "style"]):
+        script_or_style.extract()
+    text = soup.get_text()
+    lines = (line.strip() for line in text.splitlines())
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+    clean_text = "\n".join(chunk for chunk in chunks if chunk)
+    return clean_text
 
 
 def main():
