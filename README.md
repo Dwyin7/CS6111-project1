@@ -77,7 +77,9 @@
      
         second input = (y,y,y,y,y,y,y,y,y,y), precision rate = 1
 
-     2. Look for information on COVID-19 cases, starting with the query `cases`.
+     2. Look for information on 23andMe cofounder Anne Wojcicki, starting with the query `wojcicki`.
+        
+     3. Look for information on COVID-19 cases, starting with the query `cases`.
         
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
