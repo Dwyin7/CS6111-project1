@@ -66,7 +66,7 @@
    56f4e4ae2f4944372
    ```
 7. Additional information
-   * Result:
+   * Result(see `logs_for_testcase.txt`):
      1. Look for information on the Per Se restaurant in New York City, starting with the query `per se`.
         
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
