@@ -8,7 +8,7 @@
    Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj1.html
    
 ## Detail
-1. Group members: Dawei Yin, dy2483 & Yenchu Chen, yc4360
+1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
 2. List of files:
     * `main.py`: This is the main Python file responsible for collecting search results using Google's Custom Search JSON API and collecting the user feedback.
     * `rocchio.py`: This Python file takes the original query and search result as input and utilizes the Rocchio algorithm along with n-gram techniques to generate an expanded query.
