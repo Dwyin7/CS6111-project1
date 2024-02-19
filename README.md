@@ -1,20 +1,21 @@
 # CS6111- Advanced Database Systems- Project1: Information retrieval system based on user-provided relevance feedback
 ## Purpose
-   This project serves as an information retrieval system designed to enhance search results provided by Google through user-provided relevance feedback. 
-   The project takes a user query, typically a word related to the target information, as input. 
-   In each iteration, the system expands the query based on user feedback regarding the relevance of the search results to the target. The iteration continues until the expected precision, calculated as the number of HTML documents containing target information divided by all HTML documents returned by Google, reaches a predefined threshold. 
+   
+   This project serves as an information retrieval system designed to enhance search results provided by Google through user-provided feedback.
+   The project takes a user query, typically a word related to the target information, as input.In each iteration, the system expands the query based on user feedback regarding the relevance of the search results to the target. The iteration continues until the accuracy reaches a predefined threshold. 
    The objective is to minimize the number of iterations required to achieve the desired precision threshold, thus optimizing the search process.
-##
+   
+## Detail
 1. Group members: Dawei Yin, dy2483 & Yenchu Chen, yc4360
 2. List of files:
-    * `main.py`: This is the main Python file responsible for collecting search results using Google's Custom Search JSON API and executing the query expansion process.
-    * `rocchio.py`: This Python file takes the original query as input and utilizes the Rocchio algorithm along with n-gram techniques to generate an expanded query.
+    * `main.py`: This is the main Python file responsible for collecting search results using Google's Custom Search JSON API and collecting the user feedback.
+    * `rocchio.py`: This Python file takes the original query and search result as input and utilizes the Rocchio algorithm along with n-gram techniques to generate an expanded query.
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
     * `requirements.txt`: This file lists all the packages used in the project, ensuring compatibility and ease of setup for other users.
     * `logs.txt`: This file contains the results of our project, including outputs from various test cases conducted during evaluation.
 3. Instruction to run the project:
 
-    Enter into the directory where main.py file is located. Run: python main.py threshold_rate original_query
+    Enter into the directory where main.py file is located. Run: python main.py [threshold_rate] [original_query]
     * Take threshold as 0.9 and original query "per se" as example.
    ```
    python main.py 0.9 "per se"
@@ -26,10 +27,9 @@
      2. Build the Google Custom Search service. [build_service]
      2. Use the Engine ID with the server we set and the original query to get the search result. [search_by_query]
      3. Retrieve the 'Title', 'URL', 'Summary'(snippet) from the response(contains exactly top 10 search result). [parse_response]
-     After, these search result will be displayed to the user one by one and the user will type Y or N judging from whether the result is relative to the target. [get_ok]
-     4. If the user feedback to the search result achieved the desired threshold or none of the returned document is relevant, the program will stop.[query_by_precision]
-     5. If not, based on the user feedback, the program will utilize Rocchio's algorithm by analyzing 'Title' and 'Summary' to obtain the top two related words and reorderd all the words by ngram technique to generate the new query. The detailed 
-implementation of Rocchio's algorithm is introduced in the section 5. [query_by_precision]
+     4. Search result will be displayed to the user one by one and user will type Y or N judging from whether the result is relative to the target. [get_ok]
+     5. If the user's feedback to the search result reaches the desired threshold or none of the returned document is relevant, the program will stop.[query_by_precision]
+     6. If not, based on the user's feedback, the program will utilize Rocchio's algorithm by analyzing 'Title' and 'Summary' to obtain the top two relevant words and reorderd all the words by ngram technique to generate the new query. The detailed implementation of Rocchio's algorithm is introduced in the section 5. [query_by_precision]
 
    * External libraries used:
      1. googleapiclient: Used for accessing the Google Custom Search API. 
@@ -69,7 +69,7 @@ implementation of Rocchio's algorithm is introduced in the section 5. [query_by_
    * Result:
      1. Look for information on the Per Se restaurant in New York City, starting with the query [per se].
         
-        With the threshold set as 0.9, the program can stop at the second iteration.
+        With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
         query = python main.py 0.9 "per se"
      
@@ -79,7 +79,7 @@ implementation of Rocchio's algorithm is introduced in the section 5. [query_by_
 
      2. Look for information on COVID-19 cases, starting with the query [cases].
         
-        With the threshold set as 0.9, the program can stop at the second iteration.
+        With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
         query = python main.py 0.9 "cases"
      
@@ -87,9 +87,10 @@ implementation of Rocchio's algorithm is introduced in the section 5. [query_by_
      
         second input = (y,y,y,y,y,y,y,y,y,y), precision rate = 1
      3. Look for information on jaguar the car, starting with the query [jaguar].
-        With the threshold set as 0.9, the program can stop at the second iteration.
+        With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      4. Look for information on jaguar the animal, starting with the query [jaguar].
-        With the threshold set as 0.9, the program can stop at the second iteration.
+        With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
    * Fetch the content: In our initial approach, we attempted to incorporate the content from the web pages along with the snippets. However, we discovered that the web content often contained a significant amount of irrelevant information, leading to deviations in the search results. Consequently, we opted to focus solely on the title and snippet, as they are more likely to offer concise and pertinent information.
+   * stemming: In our initial approach, we attempted to incorporate the stemming technique in tokenization process. However, we discovered that the stemmed word does not help to increase the accuracy. The reason might be that 1) loss of the meaning, with all words reduce to their root may potentially lose the nuances of meaning present in different word forms. This loss of granularity can result in less precise query expansion. 2)search engine algorithm, Google search engine may already handle variants of words effectively without the need for stemming.
    
