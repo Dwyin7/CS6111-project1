@@ -12,7 +12,7 @@
     * `rocchio.py`: This Python file takes the original query and search result as input and utilizes the Rocchio algorithm along with n-gram techniques to generate an expanded query.
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
     * `requirements.txt`: This file lists all the packages used in the project, ensuring compatibility and ease of setup for other users.
-    * `logs.txt`: This file contains the results of our project, including outputs from various test cases conducted during evaluation.
+    * `logs_for_testcase.txt`: This file contains the results of our project, including outputs from various test cases conducted during evaluation.
 3. Instruction to run the project:
 
     Enter into the directory where main.py file is located. Run: python main.py [threshold_rate] [original_query]
