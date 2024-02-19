@@ -2,7 +2,6 @@ import pprint
 from googleapiclient.discovery import build
 import argparse
 from rocchio import Rocchio
-import requests
 from bs4 import BeautifulSoup
 import requests
 
@@ -56,6 +55,7 @@ def search_by_query(service, query):
     results = []
     html_result = []
     non_html_idxs = set()
+
     log(str(response), p=False)
 
     for i, r in enumerate(response["items"]):
@@ -84,8 +84,6 @@ def query_by_precision(precision, query, service):
     cur_query = query
     cur_threshold = precision * 10  # init threshold
     cur_rel_count = 0
-    all_relevant_docs = []
-    all_unrelevant_docs = []
 
     while cur_rel_count < cur_threshold:
         cur_rel_count = 0
@@ -98,11 +96,12 @@ def query_by_precision(precision, query, service):
             # gather precision from user feedback
             log(f"Result {i+1}")
             log(result_to_string(r))
-            ok = get_ok()
-            docs_content = r["title"] + " " + r["summary"]  # use snippet or else?
+
             if i in non_html_idxs:
                 # non html content
                 continue
+            ok = get_ok()
+            docs_content = r["title"] + " " + r["summary"]  # use snippet or else?
             # html_clean_text = fetch_text(r["url"])
             # docs_content += " " + html_clean_text
             # print(html_clean_text)

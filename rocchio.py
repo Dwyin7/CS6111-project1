@@ -173,7 +173,7 @@ class Rocchio:
         # Generate all combinations of n numbers from the given list
         for group in permutations(words, len(words)):
             all_groups.append(' '.join(group))
-        print(all_groups)
+        # print(all_groups)
 
         prob_map = dict()
         for group in all_groups:
@@ -241,7 +241,7 @@ class Rocchio:
         possible_n_gram = self.generate_groups(res_tokens,self.n, n_gram_dict)
         return possible_n_gram
         # print(n_gram_dict)
-        print(possible_n_gram)
+        # print(possible_n_gram)
 
         result = ""
         used = set()
