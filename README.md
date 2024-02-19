@@ -67,7 +67,7 @@
    ```
 7. Additional information
    * Result:
-     1. Look for information on the Per Se restaurant in New York City, starting with the query [per se].
+     1. Look for information on the Per Se restaurant in New York City, starting with the query `per se`.
         
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
@@ -77,7 +77,7 @@
      
         second input = (y,y,y,y,y,y,y,y,y,y), precision rate = 1
 
-     2. Look for information on COVID-19 cases, starting with the query [cases].
+     2. Look for information on COVID-19 cases, starting with the query `cases`.
         
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
@@ -86,9 +86,9 @@
         first input = (n,n,y,n,n,n,n,n,n,n), precision rate =0.1   new query:  covid cases statistics
      
         second input = (y,y,y,y,y,y,y,y,y,y), precision rate = 1
-     3. Look for information on jaguar the car, starting with the query [jaguar].
+     3. Look for information on jaguar the car, starting with the query `jaguar`.
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
-     4. Look for information on jaguar the animal, starting with the query [jaguar].
+     4. Look for information on jaguar the animal, starting with the query `jaguar`.
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
      
    * Fetch the content: In our initial approach, we attempted to incorporate the content from the web pages along with the snippets. However, we discovered that the web content often contained a significant amount of irrelevant information, leading to deviations in the search results. Consequently, we opted to focus solely on the title and snippet, as they are more likely to offer concise and pertinent information.
