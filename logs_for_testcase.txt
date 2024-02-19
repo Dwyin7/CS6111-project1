@@ -607,3 +607,79 @@ User feedback = y
 ======================
 Current precision = 10
 Threshold precision = 9
+
+Parameters:
+Query     = wojcicki
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[
+title: Susan Wojcicki - Wikipedia
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ...
+]
+User feedback = n
+Result 2
+[
+title: Susan Wojcicki (@SusanWojcicki) / X
+url: https://twitter.com/susanwojcicki?lang=en
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ...
+]
+User feedback = n
+Result 3
+[
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos
+url: https://www.instagram.com/susanwojcicki/?hl=en
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki)
+]
+User feedback = n
+Result 4
+[
+title: Esther Wojcicki
+url: https://www.facebook.com/esther.wojcicki/
+summary: Psi and was thriving academically. At home, he would tell us endless stories of his life and friends at Berkeley. Marco's life was cut too short. And we are all
+]
+User feedback = n
+Result 5
+[
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos
+url: https://www.instagram.com/heywoj/?hl=en
+summary: 7655 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj)
+]
+User feedback = n
+Result 6
+[
+title: Susan Wojcicki - YouTube | LinkedIn
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ...
+]
+User feedback = n
+Result 7
+[
+title: Son of Former YouTube CEO Susan Wojcicki Found Dead at UC ...
+url: https://people.com/son-of-susan-wojcicki-found-dead-at-uc-berkeley-8584...
+summary: 1 day ago ... Marco Troper, a UC Berkeley student who was the 19-year-old son of former YouTube CEO Susan Wojcicki, was found dead on his college campus ...
+]
+User feedback = n
+Result 8
+[
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ...
+]
+User feedback = n
+Result 9
+[
+title: Susan Wojcicki
+url: https://www.forbes.com/profile/susan-wojcicki/
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now.
+]
+User feedback = n
+Result 10
+[
+title: Esther Wojcicki - Knack | LinkedIn
+url: https://www.linkedin.com/in/estherwojcicki
+summary: Internationally known educator, consultant, speaker with a demonstrated history of… | Learn more about Esther Wojcicki's work experience, education, ...
+]
+User feedback = n

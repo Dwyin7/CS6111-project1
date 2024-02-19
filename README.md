@@ -79,6 +79,8 @@
 
      2. Look for information on 23andMe cofounder Anne Wojcicki, starting with the query `wojcicki`.
         
+        No relevant result from the return. @2024.2.18
+     
      3. Look for information on COVID-19 cases, starting with the query `cases`.
         
         With the threshold set as 0.9, the program can stop at the second iteration with precesion rate =1.
