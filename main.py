@@ -65,7 +65,9 @@ def search_by_query(service, query):
         else:
             html_result.append(parse_response(r))
         results.append(parse_response(r))
-    # print("html_result", len(html_result))
+        # print("html_result", len(html_result))
+    log("Google Search Results:")
+    log("======================")
     return results, html_result, non_html_idxs
 
 
@@ -103,9 +105,7 @@ def query_by_precision(precision, query, service):
                 continue
             ok = get_ok()
             docs_content = r["title"] + " " + r["summary"]  # use snippet or else?
-            # html_clean_text = fetch_text(r["url"])
-            # docs_content += " " + html_clean_text
-            # print(html_clean_text)
+
             cur_rel_count += ok
             if ok == 1:
                 # relevant case
@@ -118,22 +118,25 @@ def query_by_precision(precision, query, service):
             # terminate when 0 precision
             return
         # print(cur_rel_count, cur_threshold)
-        log("----------------------")
-        log(f"Current precision = {cur_rel_count}")
-        log(f"Threshold precision = {int(cur_threshold)}")
         log("======================")
 
         if cur_rel_count < cur_threshold:
             # new query
-            print("run algo")
+            # print("run algo")
             instance = Rocchio(
                 relevant_docs=relevant_docs,
                 unrelevant_docs=unrelevant_docs,
                 query=cur_query,
             )
-            cur_query = instance.run(1, 16, 4)
+            cur_query, added = instance.run(1, 16, 4)
             # print("new query:    ", cur_query)
-            log(f"new query:  {cur_query}")
+            log("FEEDBACK SUMMARY")
+            log(f"Precision = {round(cur_rel_count/int(cur_threshold),1)}")
+            log(f"Still below the desired precision")
+            # log(f"Threshold precision = {int(cur_threshold)}")
+            log("Indexing results ....")
+            log(f"Augmenting by {added}")
+            log(f"Query     = {cur_query}")
 
 
 def fetch_text(url):
@@ -170,8 +173,6 @@ def main():
     log("Parameters:")
     log(f"Query     = {query}")
     log(f"Precision = {precision}")
-    log("Google Search Results:")
-    log("======================")
 
     service = build_service()
     res = query_by_precision(precision=precision, query=query, service=service)

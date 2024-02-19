@@ -36,8 +36,6 @@ class Rocchio:
         self.num_unrelevant_docs = len(unrelevant_docs)
         self.relevant_docs = " ".join(relevant_docs)
         self.unrelevant_docs = " ".join(unrelevant_docs)
-        # self.relevant_docs = relevant_docs
-        # self.unrelevant_docs = unrelevant_docs
         self.all_docs = relevant_docs + unrelevant_docs
 
         self.n = 2
@@ -61,17 +59,6 @@ class Rocchio:
         text = re.sub("[^a-z]+", " ", text)
         res = text.split()  # Remove spaces, tabs, and new lines
         res = [word for word in res if word not in stopwords.words("english")]
-        # ps = PorterStemmer()
-        # stemmed_words_set = set()
-
-        # for word in res:
-        #     stemmed_word = ps.stem(word)
-        #     if stemmed_word not in stopwords.words("english"):
-        #         stemmed_words_set.add(stemmed_word)
-        #
-        # return list(stemmed_words_set)
-
-        # res = word_tokenize(text)
         return res
 
     def get_vocab(self):
@@ -85,14 +72,6 @@ class Rocchio:
             mp[t] += 1
         return mp
 
-    # def get_vec(self):
-    #     rel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.relevant_docs))
-    #     unrel_docs_mp = self.map_vec(self.vocab, self.tokenizer(self.unrelevant_docs))
-    #     query_mp = self.map_vec(self.vocab, self.tokenizer(self.query))
-    #     self.vec_rel = np.array([rel_docs_mp[k] for k in self.vocab])
-    #     self.vec_unrel = np.array([unrel_docs_mp[k] for k in self.vocab])
-    #     self.vec_query = np.array([query_mp[k] for k in self.vocab])
-    # print(self.vec_query, self.vec_unrel)
     def get_vec(self):
         idf_map = self.get_idf(self.vocab, self.all_docs_token)
         self.vecs_unrel = [
@@ -153,7 +132,7 @@ class Rocchio:
             for i in range(len(doc) - n + 1):
                 # Construct the 2-gram word
 
-                ngram_word = ' '.join([doc[i], doc[i + n -1]])
+                ngram_word = " ".join([doc[i], doc[i + n - 1]])
 
                 # Add the 2-gram word to the dictionary and update its occurrence count
                 if ngram_word in ngrams:
@@ -168,12 +147,11 @@ class Rocchio:
         # print(words, len(words), n)
         # print(list(combinations(words, n)))
 
-        all_groups =[]
+        all_groups = []
 
         # Generate all combinations of n numbers from the given list
         for group in permutations(words, len(words)):
-            all_groups.append(' '.join(group))
-        # print(all_groups)
+            all_groups.append(" ".join(group))
 
         prob_map = dict()
         for group in all_groups:
@@ -203,7 +181,7 @@ class Rocchio:
             alpha * query_prev
             + (beta / self.num_relevant_docs) * rel
             - (gamma / self.num_unrelevant_docs) * unrel
-        )
+        )  # run the rocchio algorithm given constant alpha beta gamma.
 
         # print(query_new)
         difference = (
@@ -219,19 +197,12 @@ class Rocchio:
         ]
 
         top_new_tokens = sorted(all_new_tokens, key=lambda x: x[1], reverse=True)[:2]
-
+        addtional_query = "".join([self.vocab[p[0]] for p in top_new_tokens])
         res_tokens = sorted(
             old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True
         )
 
-
         n_gram_dict = self.generate_ngrams(self.n, self.relevant_docs_token)
 
-
-        possible_n_gram = self.generate_groups(res_tokens,self.n, n_gram_dict)
-        return possible_n_gram
-        # print(n_gram_dict)
-        # print(possible_n_gram)
-
-
-
+        possible_n_gram = self.generate_groups(res_tokens, self.n, n_gram_dict)
+        return possible_n_gram, addtional_query
