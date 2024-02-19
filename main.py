@@ -118,9 +118,10 @@ def query_by_precision(precision, query, service):
             # terminate when 0 precision
             return
         # print(cur_rel_count, cur_threshold)
-        log("======================")
+        log("----------------------")
         log(f"Current precision = {cur_rel_count}")
         log(f"Threshold precision = {int(cur_threshold)}")
+        log("======================")
 
         if cur_rel_count < cur_threshold:
             # new query
