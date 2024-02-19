@@ -189,16 +189,6 @@ class Rocchio:
         res = prob_map[max_key]
         return res
 
-        
-
-        # possible_n_gram = sorted(
-        #     all_groups, key=lambda x: ngrams[x] if x not in ngrams else float('-inf')
-        # )
-
-        # possible_n_gram = [lst for lst in possible_n_gram if ngrams[lst] > 0]
-
-        return possible_n_gram
-
     def run(self, alpha, beta, gamma):
         # return the new query
         # print(self.vocab)
@@ -215,7 +205,7 @@ class Rocchio:
             - (gamma / self.num_unrelevant_docs) * unrel
         )
 
-        print(query_new)
+        # print(query_new)
         difference = (
             query_new - query_prev
         )  # get the diff and only find the positive increase tokens
@@ -243,17 +233,5 @@ class Rocchio:
         # print(n_gram_dict)
         # print(possible_n_gram)
 
-        result = ""
-        used = set()
-
-
-
-        return -1
-
-
-        # print(res_tokens)
-        # res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
-
-        # res = " ".join([self.vocab[i] for i, _ in res_tokens])
 
 

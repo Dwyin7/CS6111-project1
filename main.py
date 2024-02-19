@@ -56,7 +56,7 @@ def search_by_query(service, query):
     html_result = []
     non_html_idxs = set()
 
-    log(str(response), p=False)
+    # log(str(response), p=False)
 
     for i, r in enumerate(response["items"]):
         if "fileFormat" in r:
@@ -72,6 +72,7 @@ def search_by_query(service, query):
 def get_ok():
     while True:
         yes_or_no = input("Relevant (Y/N)")
+        log(f"User feedback = {yes_or_no}")
         if yes_or_no.lower() == "y":
             return 1
         elif yes_or_no.lower() == "n":
@@ -116,7 +117,10 @@ def query_by_precision(precision, query, service):
         if cur_rel_count == 0:
             # terminate when 0 precision
             return
-        print(cur_rel_count, cur_threshold)
+        # print(cur_rel_count, cur_threshold)
+        log("======================")
+        log(f"Current precision = {cur_rel_count}")
+        log(f"Threshold precision = {int(cur_threshold)}")
 
         if cur_rel_count < cur_threshold:
             # new query
@@ -127,7 +131,8 @@ def query_by_precision(precision, query, service):
                 query=cur_query,
             )
             cur_query = instance.run(1, 16, 4)
-            print("new query:    ", cur_query)
+            # print("new query:    ", cur_query)
+            log(f"new query:  {cur_query}")
 
 
 def fetch_text(url):
