@@ -5,6 +5,8 @@
    The project takes a user query, typically a word related to the target information, as input.In each iteration, the system expands the query based on user feedback regarding the relevance of the search results to the target. The iteration continues until the accuracy reaches a predefined threshold. 
    The objective is to minimize the number of iterations required to achieve the desired precision threshold, thus optimizing the search process.
    
+   Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj1.html
+   
 ## Detail
 1. Group members: Dawei Yin, dy2483 & Yenchu Chen, yc4360
 2. List of files:
