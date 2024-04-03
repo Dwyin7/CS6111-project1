@@ -3,12 +3,11 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+from itertools import permutations
+
 
 # download 'stopwords' package
 import ssl
-from gensim.models import Word2Vec
-
-# Assuming `all_docs_token` is a list of lists of tokens for each document
 
 try:
     _create_unverified_https_context = ssl._create_unverified_context
@@ -37,9 +36,9 @@ class Rocchio:
         self.num_unrelevant_docs = len(unrelevant_docs)
         self.relevant_docs = " ".join(relevant_docs)
         self.unrelevant_docs = " ".join(unrelevant_docs)
-        # self.relevant_docs = relevant_docs
-        # self.unrelevant_docs = unrelevant_docs
         self.all_docs = relevant_docs + unrelevant_docs
+
+        self.n = 2
 
         self.relevant_docs_token = [self.tokenizer(d) for d in relevant_docs]
         self.unrelevant_docs_token = [self.tokenizer(d) for d in unrelevant_docs]
@@ -60,7 +59,6 @@ class Rocchio:
         text = re.sub("[^a-z]+", " ", text)
         res = text.split()  # Remove spaces, tabs, and new lines
         res = [word for word in res if word not in stopwords.words("english")]
-
         return res
 
     def get_vocab(self):
@@ -86,6 +84,7 @@ class Rocchio:
         ]
         query_mp = self.map_vec(self.vocab, self.tokenizer(self.query))
         self.vec_query = np.array([query_mp[k] for k in self.vocab])
+        # print(self.vecs_unrel)
 
     def get_idf(self, vocab, all_docs):
         # vocab: list of tokens
@@ -124,8 +123,54 @@ class Rocchio:
             temp_res.append(temp)
         return np.array(temp_res)
 
+    def generate_ngrams(self, n, all_docs_token):
+
+        ngrams = {}
+
+        # Iterate through the words to generate n-grams
+        for doc in all_docs_token:
+            for i in range(len(doc) - n + 1):
+                # Construct the 2-gram word
+
+                ngram_word = " ".join([doc[i], doc[i + n - 1]])
+
+                # Add the 2-gram word to the dictionary and update its occurrence count
+                if ngram_word in ngrams:
+                    ngrams[ngram_word] += 1
+                else:
+                    ngrams[ngram_word] = 1
+
+        return ngrams
+
+    def generate_groups(self, res_tokens, n, ngrams):
+        words = [self.vocab[idx] for idx, _ in res_tokens]
+        # print(words, len(words), n)
+        # print(list(combinations(words, n)))
+
+        all_groups = []
+
+        # Generate all combinations of n numbers from the given list
+        for group in permutations(words, len(words)):
+            all_groups.append(" ".join(group))
+
+        prob_map = dict()
+        for group in all_groups:
+            i = 2
+            occ = 0
+            while i < len(group):
+                s = group[:i]
+                if s in ngrams:
+                    occ += ngrams[s]
+                i += 1
+            prob_map[occ] = group
+        max_key = max(prob_map.keys())
+        res = prob_map[max_key]
+        return res
+
     def run(self, alpha, beta, gamma):
         # return the new query
+        # print(self.vocab)
+
         query_prev = self.vec_query
         vecs_rel_norm = [v / np.linalg.norm(v, ord=2) for v in self.vecs_rel]
         vecs_unrel_norm = [v / np.linalg.norm(v, ord=2) for v in self.vecs_unrel]
@@ -136,9 +181,9 @@ class Rocchio:
             alpha * query_prev
             + (beta / self.num_relevant_docs) * rel
             - (gamma / self.num_unrelevant_docs) * unrel
-        )
+        )  # run the rocchio algorithm given constant alpha beta gamma.
 
-        print(query_new)
+        # print(query_new)
         difference = (
             query_new - query_prev
         )  # get the diff and only find the positive increase tokens
@@ -152,11 +197,12 @@ class Rocchio:
         ]
 
         top_new_tokens = sorted(all_new_tokens, key=lambda x: x[1], reverse=True)[:2]
-
+        addtional_query = "".join([self.vocab[p[0]] for p in top_new_tokens])
         res_tokens = sorted(
             old_tokens + top_new_tokens, key=lambda x: x[1], reverse=True
         )
-        # print(res_tokens)
-        # res = self.query + " " + " ".join([self.vocab[i] for i, _ in top_new_tokens])
-        res = " ".join([self.vocab[i] for i, _ in res_tokens])
-        return res
+
+        n_gram_dict = self.generate_ngrams(self.n, self.relevant_docs_token)
+
+        possible_n_gram = self.generate_groups(res_tokens, self.n, n_gram_dict)
+        return possible_n_gram, addtional_query

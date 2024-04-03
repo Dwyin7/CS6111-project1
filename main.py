@@ -2,7 +2,6 @@ import pprint
 from googleapiclient.discovery import build
 import argparse
 from rocchio import Rocchio
-import requests
 from bs4 import BeautifulSoup
 import requests
 
@@ -56,7 +55,8 @@ def search_by_query(service, query):
     results = []
     html_result = []
     non_html_idxs = set()
-    log(str(response), p=False)
+
+    # log(str(response), p=False)
 
     for i, r in enumerate(response["items"]):
         if "fileFormat" in r:
@@ -65,13 +65,16 @@ def search_by_query(service, query):
         else:
             html_result.append(parse_response(r))
         results.append(parse_response(r))
-    # print("html_result", len(html_result))
+        # print("html_result", len(html_result))
+    log("Google Search Results:")
+    log("======================")
     return results, html_result, non_html_idxs
 
 
 def get_ok():
     while True:
         yes_or_no = input("Relevant (Y/N)")
+        log(f"User feedback = {yes_or_no}")
         if yes_or_no.lower() == "y":
             return 1
         elif yes_or_no.lower() == "n":
@@ -84,8 +87,6 @@ def query_by_precision(precision, query, service):
     cur_query = query
     cur_threshold = precision * 10  # init threshold
     cur_rel_count = 0
-    all_relevant_docs = []
-    all_unrelevant_docs = []
 
     while cur_rel_count < cur_threshold:
         cur_rel_count = 0
@@ -98,14 +99,13 @@ def query_by_precision(precision, query, service):
             # gather precision from user feedback
             log(f"Result {i+1}")
             log(result_to_string(r))
-            ok = get_ok()
-            docs_content = r["title"] + " " + r["summary"]  # use snippet or else?
+
             if i in non_html_idxs:
                 # non html content
                 continue
-            html_clean_text = fetch_text(r["url"])
-            docs_content += " " + html_clean_text
-            # print(html_clean_text)
+            ok = get_ok()
+            docs_content = r["title"] + " " + r["summary"]  # use snippet or else?
+
             cur_rel_count += ok
             if ok == 1:
                 # relevant case
@@ -117,18 +117,26 @@ def query_by_precision(precision, query, service):
         if cur_rel_count == 0:
             # terminate when 0 precision
             return
-        print(cur_rel_count, cur_threshold)
+        # print(cur_rel_count, cur_threshold)
+        log("======================")
 
         if cur_rel_count < cur_threshold:
             # new query
-            print("run algo")
+            # print("run algo")
             instance = Rocchio(
                 relevant_docs=relevant_docs,
                 unrelevant_docs=unrelevant_docs,
                 query=cur_query,
             )
-            cur_query = instance.run(1, 16, 4)
-            print("new query:    ", cur_query)
+            cur_query, added = instance.run(1, 16, 4)
+            # print("new query:    ", cur_query)
+            log("FEEDBACK SUMMARY")
+            log(f"Precision = {round(cur_rel_count/int(cur_threshold),1)}")
+            log(f"Still below the desired precision")
+            # log(f"Threshold precision = {int(cur_threshold)}")
+            log("Indexing results ....")
+            log(f"Augmenting by {added}")
+            log(f"Query     = {cur_query}")
 
 
 def fetch_text(url):
@@ -165,8 +173,6 @@ def main():
     log("Parameters:")
     log(f"Query     = {query}")
     log(f"Precision = {precision}")
-    log("Google Search Results:")
-    log("======================")
 
     service = build_service()
     res = query_by_precision(precision=precision, query=query, service=service)
